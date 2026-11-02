@@ -1,0 +1,10 @@
+group,pairs,count,pct
+all linked pairs,2374459,86590,3.646725422506769
+"manufacturing at t-1, same occupation code",209006,2709,1.296135039185478
+"manufacturing at t-1, occupation code changed",15859,5977,37.68837883851441
+"Q1 events (P in manufacturing at t-1, in M at t)",149,38,25.503355704697988
+"Q2 entrants (in M and manufacturing at t, not in M at t-1)",440,166,37.72727272727273
+"in M at t-1 and at t, manufacturing at t",7908,75,0.9484066767830045
+"occupation code changes, manufacturing at t-1: all pairs",224865,15859,7.052676050074489
+"occupation code changes, manufacturing at t-1: no allocation",216179,9882,4.571211819834489
+"occupation code changes, manufacturing at t-1: with allocation",8686,5977,68.81188118811882

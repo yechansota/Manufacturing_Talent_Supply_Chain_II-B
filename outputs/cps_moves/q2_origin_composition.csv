@@ -1,0 +1,57 @@
+key,check,group,event,n_den,n_num,pct,lo,hi,reportable,not_reportable_reason,role
+q2o|i_persistence|production_mfg|any_employer,i_persistence,production_mfg,any_employer,351,75,21.941972464422566,17.236391347209928,26.718498475973682,True,,check
+q2o|i_persistence|production_outside_mfg|any_employer,i_persistence,production_outside_mfg,any_employer,351,6,1.1989944742060268,0.3236474148737599,2.404663415181028,True,,check
+q2o|i_persistence|other_install_maint_repair|any_employer,i_persistence,other_install_maint_repair,any_employer,351,40,12.39067375645681,8.605815994035256,16.305115080945065,True,,check
+q2o|i_persistence|construction_extraction|any_employer,i_persistence,construction_extraction,any_employer,351,31,8.408521149896519,5.008326468823939,12.102936994653005,True,,check
+q2o|i_persistence|transport_material_moving|any_employer,i_persistence,transport_material_moving,any_employer,351,31,9.7976633645876,6.436840476100181,13.674617144494709,True,,check
+q2o|i_persistence|architecture_engineering|any_employer,i_persistence,architecture_engineering,any_employer,351,26,7.566645874952195,4.59308652171596,10.76934159734713,True,,check
+q2o|i_persistence|other|any_employer,i_persistence,other,any_employer,351,142,38.695528915478256,32.729161056577226,44.54183451315229,True,,check
+q2o|i_persistence|production_mfg|same_employer,i_persistence,production_mfg,same_employer,119,37,30.90059444530799,22.07746249429601,40.67846823808594,True,,check
+q2o|i_persistence|production_outside_mfg|same_employer,i_persistence,production_outside_mfg,same_employer,119,1,0.4152085078264391,0.0,1.4374233568150823,True,,check
+q2o|i_persistence|other_install_maint_repair|same_employer,i_persistence,other_install_maint_repair,same_employer,119,9,10.250127083172092,4.097293143709362,17.997628553731378,False,relative interval width > 130%,check
+q2o|i_persistence|construction_extraction|same_employer,i_persistence,construction_extraction,same_employer,119,6,4.409118985128096,0.880504977533494,8.886029975356335,False,relative interval width > 130%,check
+q2o|i_persistence|transport_material_moving|same_employer,i_persistence,transport_material_moving,same_employer,119,10,10.358374959987884,4.399547514062425,17.3690588212309,True,,check
+q2o|i_persistence|architecture_engineering|same_employer,i_persistence,architecture_engineering,same_employer,119,9,5.223200471558795,1.8830999317506574,9.587078484163131,False,relative interval width > 130%,check
+q2o|i_persistence|other|same_employer,i_persistence,other,same_employer,119,47,38.443375547018704,28.998507536822654,48.430874657257455,True,,check
+q2o|ii_excl_2020_2021|production_mfg|any_employer,ii_excl_2020_2021,production_mfg,any_employer,309,65,21.193261442672004,16.341670605860934,26.67475915111482,True,,check
+q2o|ii_excl_2020_2021|production_outside_mfg|any_employer,ii_excl_2020_2021,production_outside_mfg,any_employer,309,3,0.47905234717521483,0.0,1.070838689876521,True,,check
+q2o|ii_excl_2020_2021|other_install_maint_repair|any_employer,ii_excl_2020_2021,other_install_maint_repair,any_employer,309,40,13.695972768688765,9.516255219434122,17.956087964916307,True,,check
+q2o|ii_excl_2020_2021|construction_extraction|any_employer,ii_excl_2020_2021,construction_extraction,any_employer,309,24,8.033893479872864,4.1764828499500775,12.069093750124232,True,,check
+q2o|ii_excl_2020_2021|transport_material_moving|any_employer,ii_excl_2020_2021,transport_material_moving,any_employer,309,24,8.666394262896972,5.4232775441729375,12.312395943708117,True,,check
+q2o|ii_excl_2020_2021|architecture_engineering|any_employer,ii_excl_2020_2021,architecture_engineering,any_employer,309,23,7.448768678130113,4.261843048267019,10.99632821590228,True,,check
+q2o|ii_excl_2020_2021|other|any_employer,ii_excl_2020_2021,other,any_employer,309,130,40.48265702056407,34.08522241132128,47.18783440385704,True,,check
+q2o|ii_excl_2020_2021|production_mfg|same_employer,ii_excl_2020_2021,production_mfg,same_employer,92,26,28.402267410220798,18.66374050879925,39.29501921203023,True,,check
+q2o|ii_excl_2020_2021|production_outside_mfg|same_employer,ii_excl_2020_2021,production_outside_mfg,same_employer,92,1,0.5213412803243188,0.0,1.7560592012220904,True,,check
+q2o|ii_excl_2020_2021|other_install_maint_repair|same_employer,ii_excl_2020_2021,other_install_maint_repair,same_employer,92,8,11.296680152623235,4.0369178412584565,19.664351599931504,False,relative interval width > 130%,check
+q2o|ii_excl_2020_2021|construction_extraction|same_employer,ii_excl_2020_2021,construction_extraction,same_employer,92,2,3.9786419925268017,0.0,12.427828287736466,False,relative interval width > 130%,check
+q2o|ii_excl_2020_2021|transport_material_moving|same_employer,ii_excl_2020_2021,transport_material_moving,same_employer,92,5,5.332831940757818,1.054526200959967,10.706029432064208,False,relative interval width > 130%,check
+q2o|ii_excl_2020_2021|architecture_engineering|same_employer,ii_excl_2020_2021,architecture_engineering,same_employer,92,9,7.789483693080553,2.900778483477744,13.790301220477582,False,relative interval width > 130%,check
+q2o|ii_excl_2020_2021|other|same_employer,ii_excl_2020_2021,other,same_employer,92,41,42.67875353046649,31.2372820605292,54.486130114454866,True,,check
+q2o|iv_no_allocation|production_mfg|any_employer,iv_no_allocation,production_mfg,any_employer,274,82,30.07055685786201,24.252292216546866,36.09555632553714,True,,headline (DL-42)
+q2o|iv_no_allocation|production_outside_mfg|any_employer,iv_no_allocation,production_outside_mfg,any_employer,274,6,1.4792184452107298,0.39915908774847203,3.011965448159676,True,,headline (DL-42)
+q2o|iv_no_allocation|other_install_maint_repair|any_employer,iv_no_allocation,other_install_maint_repair,any_employer,274,45,16.859909187002483,12.064236580312086,21.57966285084538,True,,headline (DL-42)
+q2o|iv_no_allocation|construction_extraction|any_employer,iv_no_allocation,construction_extraction,any_employer,274,19,7.748693378845319,3.997102381851068,12.172158348280647,True,,headline (DL-42)
+q2o|iv_no_allocation|transport_material_moving|any_employer,iv_no_allocation,transport_material_moving,any_employer,274,21,8.013015009225256,4.736791252023811,12.051415351111013,True,,headline (DL-42)
+q2o|iv_no_allocation|architecture_engineering|any_employer,iv_no_allocation,architecture_engineering,any_employer,274,28,11.093839598165484,7.031475397309635,15.616015642099875,True,,headline (DL-42)
+q2o|iv_no_allocation|other|any_employer,iv_no_allocation,other,any_employer,274,73,24.734767523688717,19.2568758166606,30.835479513581078,True,,headline (DL-42)
+q2o|iv_no_allocation|production_mfg|same_employer,iv_no_allocation,production_mfg,same_employer,90,38,42.312748414146284,30.95757388356298,54.05738301972857,True,,headline (DL-42)
+q2o|iv_no_allocation|production_outside_mfg|same_employer,iv_no_allocation,production_outside_mfg,same_employer,90,1,0.5468704761322185,0.0,1.8425348223281552,True,,headline (DL-42)
+q2o|iv_no_allocation|other_install_maint_repair|same_employer,iv_no_allocation,other_install_maint_repair,same_employer,90,9,12.697239614600521,4.954625319836094,22.121051474958197,False,relative interval width > 130%,headline (DL-42)
+q2o|iv_no_allocation|construction_extraction|same_employer,iv_no_allocation,construction_extraction,same_employer,90,3,3.9414084091117085,0.0,9.303961081722575,False,relative interval width > 130%,headline (DL-42)
+q2o|iv_no_allocation|transport_material_moving|same_employer,iv_no_allocation,transport_material_moving,same_employer,90,7,9.691794747266123,3.2094595206397587,18.02809944980024,False,relative interval width > 130%,headline (DL-42)
+q2o|iv_no_allocation|architecture_engineering|same_employer,iv_no_allocation,architecture_engineering,same_employer,90,8,7.080994599629781,2.228924154392557,12.853407971211652,False,relative interval width > 130%,headline (DL-42)
+q2o|iv_no_allocation|other|same_employer,iv_no_allocation,other,same_employer,90,24,23.728943739113376,14.297021846949043,34.25406984414872,True,,headline (DL-42)
+q2o|main|production_mfg|any_employer,main,production_mfg,any_employer,440,93,21.109321699025497,17.079239753891166,25.440491580321222,True,,registered primary
+q2o|main|production_outside_mfg|any_employer,main,production_outside_mfg,any_employer,440,6,0.9178320089842149,0.24567394886928884,1.865680898078696,True,,registered primary
+q2o|main|other_install_maint_repair|any_employer,main,other_install_maint_repair,any_employer,440,54,12.91279108671572,9.45463116655089,16.156339618060173,True,,registered primary
+q2o|main|construction_extraction|any_employer,main,construction_extraction,any_employer,440,41,9.03137114564907,5.831614129662076,12.513047851473333,True,,registered primary
+q2o|main|transport_material_moving|any_employer,main,transport_material_moving,any_employer,440,41,10.085633277888677,7.166294756676135,13.487064187772024,True,,registered primary
+q2o|main|architecture_engineering|any_employer,main,architecture_engineering,any_employer,440,31,7.422805438692727,4.737122713653249,10.34593507568963,True,,registered primary
+q2o|main|other|any_employer,main,other,any_employer,440,174,38.52024534304409,33.45505263970555,43.67448487339215,True,,registered primary
+q2o|main|production_mfg|same_employer,main,production_mfg,same_employer,135,39,28.487556109868454,20.398387965895456,36.93006834370303,True,,registered primary
+q2o|main|production_outside_mfg|same_employer,main,production_outside_mfg,same_employer,135,1,0.3604267012097164,0.0,1.2386738808216893,True,,registered primary
+q2o|main|other_install_maint_repair|same_employer,main,other_install_maint_repair,same_employer,135,11,10.284702927379623,4.4797254265887565,16.71104785661306,True,,registered primary
+q2o|main|construction_extraction|same_employer,main,construction_extraction,same_employer,135,8,6.498435233974984,1.6832192570150464,12.638416051780995,False,relative interval width > 130%,registered primary
+q2o|main|transport_material_moving|same_employer,main,transport_material_moving,same_employer,135,11,9.77449948321573,4.276189024125364,16.041027536154186,True,,registered primary
+q2o|main|architecture_engineering|same_employer,main,architecture_engineering,same_employer,135,11,6.515415923069108,2.67841768535156,10.91388074622492,True,,registered primary
+q2o|main|other|same_employer,main,other,same_employer,135,54,38.078963621282384,28.93809938927745,47.273962137469965,True,,registered primary

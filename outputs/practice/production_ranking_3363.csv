@@ -1,0 +1,160 @@
+domain,soc6,onet_codes,has_profile,D,P,title,emp_3363,emp_rse,h_median_3363,ep_change_pct,ep_transfer_rate_pct,ojt_bls,in_registered_frame,emp_withheld,small_or_imprecise,rank
+A,51-9161,51-9161.00,True,0.16802775853580082,1.8784530386740332,Computer Numerically Controlled Tool Operators,9200.0,4.1,22.91,-9.4,6.1,Moderate-term on-the-job training,True,False,False,1.0
+A,51-4041,51-4041.00,True,0.30181752730542694,6.519337016574586,Machinists,9360.0,3.1,26.09,1.0,5.4,Long-term on-the-job training,True,False,False,2.0
+A,51-9021,51-9021.00,True,0.3416798348852981,8.508287292817679,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",460.0,2.3,19.07,-1.7,5.6,Moderate-term on-the-job training,False,False,True,3.0
+A,51-4023,51-4023.00,True,0.3425143014706185,8.61878453038674,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",270.0,7.5,22.64,-8.3,5.3,Moderate-term on-the-job training,False,False,True,4.0
+A,51-6093,51-6093.00,True,0.3584619029669066,9.281767955801106,Upholsterers,510.0,17.9,18.62,-2.3,3.7,Moderate-term on-the-job training,False,False,True,5.0
+A,51-4191,51-4191.00,True,0.35986175671764226,9.392265193370166,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",530.0,6.1,23.18,-9.5,5.6,Moderate-term on-the-job training,False,False,True,6.0
+A,51-4081,51-4081.00,True,0.36977143030142523,10.165745856353592,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",13810.0,3.0,23.05,0.6,5.6,Moderate-term on-the-job training,True,False,False,7.0
+A,51-8021,51-8021.00,True,0.3708721292286249,10.276243093922652,Stationary Engineers and Boiler Operators,130.0,2.5,44.64,3.1,6.2,Long-term on-the-job training,False,False,True,8.0
+A,51-4061,51-4061.00,True,0.38531502059937656,11.38121546961326,"Model Makers, Metal and Plastic",80.0,9.6,26.95,-17.3,6.6,Moderate-term on-the-job training,False,False,True,9.0
+A,51-2051,51-2051.00,True,0.3898778370822298,11.823204419889503,Fiberglass Laminators and Fabricators,70.0,24.2,21.6,4.6,6.0,Moderate-term on-the-job training,False,False,True,10.0
+A,51-4051,51-4051.00,True,0.4118883146759676,13.038674033149173,Metal-Refining Furnace Operators and Tenders,420.0,4.4,23.67,-2.9,5.8,Moderate-term on-the-job training,False,False,True,11.0
+A,51-9111,51-9111.00,True,0.4192331134025924,13.922651933701658,Packaging and Filling Machine Operators and Tenders,690.0,10.2,19.86,4.1,5.8,Moderate-term on-the-job training,False,False,True,12.0
+A,51-6091,51-6091.00,True,0.42265773347377406,14.14364640883978,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",90.0,27.6,22.35,-3.3,4.5,Moderate-term on-the-job training,False,False,True,13.0
+A,51-8031,51-8031.00,True,0.42699037523759287,14.475138121546962,Water and Wastewater Treatment Plant and System Operators,100.0,13.8,24.54,-5.7,5.5,Long-term on-the-job training,False,False,True,14.0
+A,51-4111,51-4111.00,True,0.4358256579180139,15.359116022099448,Tool and Die Makers,8930.0,2.7,35.02,-9.2,4.9,Long-term on-the-job training,True,False,False,15.0
+A,51-7042,51-7042.00,True,0.43680523990351217,15.58011049723757,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",140.0,20.7,20.71,-2.5,6.1,Moderate-term on-the-job training,False,False,True,16.0
+A,51-2031,51-2031.00,True,0.45028807622585454,16.906077348066297,Engine and Other Machine Assemblers,19090.0,1.8,29.1,-17.0,5.5,Moderate-term on-the-job training,True,False,False,17.0
+A,51-9124,51-9124.00,True,0.4615657040254802,17.458563535911605,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",4640.0,7.2,21.98,2.5,5.8,Moderate-term on-the-job training,True,False,False,18.0
+A,51-9162,51-9162.00,True,0.4648181949251733,17.900552486187845,Computer Numerically Controlled Tool Programmers,1260.0,10.5,27.66,5.9,6.1,Moderate-term on-the-job training,False,False,True,19.0
+A,51-9041,51-9041.00,True,0.4670988332576843,18.121546961325965,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",820.0,14.5,23.68,1.5,5.3,Moderate-term on-the-job training,False,False,True,20.0
+A,51-5112,51-5112.00,True,0.46897701339431724,18.34254143646409,Printing Press Operators,140.0,41.0,20.26,-8.7,5.8,Moderate-term on-the-job training,False,False,True,21.0
+A,51-9191,51-9191.00,True,0.4714417896528665,18.563535911602212,Adhesive Bonding Machine Operators and Tenders,70.0,31.1,20.58,1.3,5.8,Moderate-term on-the-job training,False,False,True,22.0
+A,51-6062,51-6062.00,True,0.4742809750901268,19.116022099447513,"Textile Cutting Machine Setters, Operators, and Tenders",120.0,29.3,18.03,-13.6,5.6,Moderate-term on-the-job training,False,False,True,23.0
+A,51-4072,51-4072.00,True,0.4759981666423011,19.226519337016573,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",8780.0,6.2,20.22,-3.4,6.6,Moderate-term on-the-job training,True,False,False,24.0
+A,51-4192,51-4192.00,True,0.4848734517475793,20.0,"Layout Workers, Metal and Plastic",90.0,19.4,28.72,-3.4,5.6,Moderate-term on-the-job training,False,False,True,25.0
+A,51-1011,51-1011.00,True,0.48507674943521634,20.11049723756906,First-Line Supervisors of Production and Operating Workers,22500.0,0.8,33.72,1.8,5.6,None,True,False,False,26.0
+A,51-4021,51-4021.00,True,0.495275463578097,20.22099447513812,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",330.0,6.3,20.96,0.7,5.3,Moderate-term on-the-job training,False,False,True,27.0
+A,51-4031,51-4031.00,True,0.49607838340018734,20.331491712707184,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",27220.0,2.6,21.8,-10.5,6.0,Moderate-term on-the-job training,True,False,False,28.0
+A,51-9023,51-9023.00,True,0.5070315691589198,21.54696132596685,"Mixing and Blending Machine Setters, Operators, and Tenders",370.0,5.7,22.68,-6.1,5.6,Moderate-term on-the-job training,False,False,True,29.0
+A,51-4032,51-4032.00,True,0.5073864007514901,21.65745856353591,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",390.0,7.5,21.67,-9.5,6.3,Moderate-term on-the-job training,False,False,True,30.0
+A,51-9032,51-9032.00,True,0.5153711008780126,22.099447513812155,"Cutting and Slicing Machine Setters, Operators, and Tenders",190.0,23.0,19.31,-0.9,6.3,Moderate-term on-the-job training,False,False,True,31.0
+A,51-6092,51-6092.00,True,0.5414323816437258,24.30939226519337,Fabric and Apparel Patternmakers,30.0,38.2,24.65,-15.0,4.5,Moderate-term on-the-job training,False,False,True,32.0
+A,51-4033,51-4033.00,True,0.5519392865219046,25.193370165745854,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",2050.0,4.2,22.27,-10.8,5.1,Moderate-term on-the-job training,False,False,False,33.0
+A,51-4194,51-4194.00,True,0.5530736374769293,25.41436464088398,"Tool Grinders, Filers, and Sharpeners",100.0,9.4,32.48,-6.8,5.6,Moderate-term on-the-job training,False,False,True,34.0
+A,51-9022,51-9022.00,True,0.5609229700837481,25.856353591160218,"Grinding and Polishing Workers, Hand",80.0,19.7,19.16,-19.2,5.6,Moderate-term on-the-job training,False,False,True,35.0
+A,51-4035,51-4035.00,True,0.6029430453821863,29.171270718232044,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",510.0,43.3,14.35,-13.2,6.3,Moderate-term on-the-job training,False,False,True,36.0
+A,51-4193,51-4193.00,True,0.6084765642883565,29.83425414364641,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",920.0,27.3,18.4,-9.7,5.6,Moderate-term on-the-job training,False,False,True,37.0
+A,51-4122,51-4122.00,True,0.6214888128615974,30.939226519337016,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",4270.0,5.4,20.74,-8.9,6.2,Moderate-term on-the-job training,True,False,False,38.0
+A,51-9061,51-9061.00,True,0.6215862902433216,31.04972375690608,"Inspectors, Testers, Sorters, Samplers, and Weighers",21920.0,1.5,22.63,2.5,6.7,Moderate-term on-the-job training,True,False,False,39.0
+A,51-2090,51-2092.00,True,0.6479941433883315,33.25966850828729,Miscellaneous Assemblers and Fabricators,129460.0,0.9,20.97,1.1,6.0,Moderate-term on-the-job training,True,False,False,40.0
+A,51-4121,51-4121.00,True,0.6788520223608879,35.690607734806626,"Welders, Cutters, Solderers, and Brazers",14470.0,2.6,22.74,2.4,6.2,Moderate-term on-the-job training,True,False,False,41.0
+A,51-4022,51-4022.00,True,0.6956997267057946,36.9060773480663,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",950.0,37.5,21.37,-17.2,5.3,Moderate-term on-the-job training,False,False,True,42.0
+A,51-4034,51-4034.00,True,0.7166021683708643,39.005524861878456,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",400.0,17.6,23.65,-11.3,6.3,Moderate-term on-the-job training,False,False,True,43.0
+A,51-2028,51-2022.00;51-2023.00,True,0.765106745725708,43.31491712707182,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",10990.0,3.3,20.29,5.0,5.5,Moderate-term on-the-job training,True,False,False,44.0
+A,51-2041,51-2041.00,True,0.781752067287173,44.86187845303867,Structural Metal Fabricators and Fitters,80.0,16.4,21.83,-6.2,6.1,Moderate-term on-the-job training,False,False,True,45.0
+A,51-9198,51-9198.00,True,0.8341410891973771,48.1767955801105,Helpers--Production Workers,2270.0,7.6,19.99,-8.2,8.1,Short-term on-the-job training,False,False,False,46.0
+A,51-9192,51-9192.00,True,0.9152910703650728,53.48066298342542,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",70.0,16.5,19.93,3.4,6.3,Moderate-term on-the-job training,False,False,True,47.0
+A,51-4071,51-4071.00,True,0.9308218284001436,54.254143646408835,Foundry Mold and Coremakers,460.0,4.3,21.57,-23.0,6.6,Moderate-term on-the-job training,False,False,True,48.0
+A,51-6031,51-6031.00,True,1.0475580124495838,61.65745856353592,Sewing Machine Operators,2020.0,13.0,18.33,-15.1,5.3,Short-term on-the-job training,False,False,True,49.0
+A,51-2021,51-2021.00,True,1.079590910351962,63.75690607734806,"Coil Winders, Tapers, and Finishers",160.0,20.7,22.38,-4.0,5.5,Moderate-term on-the-job training,False,False,True,50.0
+A,51-9123,51-9123.00,True,1.2092322134633118,73.03867403314918,"Painting, Coating, and Decorating Workers",,,17.5,1.3,5.8,Moderate-term on-the-job training,False,True,True,51.0
+A,51-4199,51-4199.00,False,,,"Metal Workers and Plastic Workers, All Other",190.0,13.3,19.87,-7.1,5.6,Moderate-term on-the-job training,False,False,True,
+A,51-9199,51-9199.00,False,,,"Production Workers, All Other",8790.0,4.0,19.35,0.8,6.3,Moderate-term on-the-job training,False,False,False,
+K,51-8031,51-8031.00,True,0.026037781628279674,1.6574585635359116,Water and Wastewater Treatment Plant and System Operators,100.0,13.8,24.54,-5.7,5.5,Long-term on-the-job training,False,False,True,1.0
+K,51-4192,51-4192.00,True,0.08521551554074583,7.513812154696133,"Layout Workers, Metal and Plastic",90.0,19.4,28.72,-3.4,5.6,Moderate-term on-the-job training,False,False,True,2.0
+K,51-2090,51-2092.00,True,0.1022205732183371,9.392265193370166,Miscellaneous Assemblers and Fabricators,129460.0,0.9,20.97,1.1,6.0,Moderate-term on-the-job training,True,False,False,3.0
+K,51-8021,51-8021.00,True,0.10742371082925772,10.05524861878453,Stationary Engineers and Boiler Operators,130.0,2.5,44.64,3.1,6.2,Long-term on-the-job training,False,False,True,4.0
+K,51-9032,51-9032.00,True,0.11055877689175095,10.497237569060774,"Cutting and Slicing Machine Setters, Operators, and Tenders",190.0,23.0,19.31,-0.9,6.3,Moderate-term on-the-job training,False,False,True,5.0
+K,51-4034,51-4034.00,True,0.1136415056356282,10.718232044198896,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",400.0,17.6,23.65,-11.3,6.3,Moderate-term on-the-job training,False,False,True,6.0
+K,51-4071,51-4071.00,True,0.12142740322996336,11.2707182320442,Foundry Mold and Coremakers,460.0,4.3,21.57,-23.0,6.6,Moderate-term on-the-job training,False,False,True,7.0
+K,51-2021,51-2021.00,True,0.12886345373776925,12.154696132596685,"Coil Winders, Tapers, and Finishers",160.0,20.7,22.38,-4.0,5.5,Moderate-term on-the-job training,False,False,True,8.0
+K,51-4032,51-4032.00,True,0.12924993028980664,12.265193370165745,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",390.0,7.5,21.67,-9.5,6.3,Moderate-term on-the-job training,False,False,True,9.0
+K,51-4035,51-4035.00,True,0.14978668543636892,14.585635359116022,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",510.0,43.3,14.35,-13.2,6.3,Moderate-term on-the-job training,False,False,True,10.0
+K,51-1011,51-1011.00,True,0.15974186777529203,15.248618784530388,First-Line Supervisors of Production and Operating Workers,22500.0,0.8,33.72,1.8,5.6,None,True,False,False,11.0
+K,51-9161,51-9161.00,True,0.16737746919078977,16.243093922651934,Computer Numerically Controlled Tool Operators,9200.0,4.1,22.91,-9.4,6.1,Moderate-term on-the-job training,True,False,False,12.0
+K,51-4193,51-4193.00,True,0.1710975246383722,16.906077348066297,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",920.0,27.3,18.4,-9.7,5.6,Moderate-term on-the-job training,False,False,True,13.0
+K,51-9111,51-9111.00,True,0.20320747719848903,20.994475138121548,Packaging and Filling Machine Operators and Tenders,690.0,10.2,19.86,4.1,5.8,Moderate-term on-the-job training,False,False,True,14.0
+K,51-9162,51-9162.00,True,0.20486116481547584,21.104972375690608,Computer Numerically Controlled Tool Programmers,1260.0,10.5,27.66,5.9,6.1,Moderate-term on-the-job training,False,False,True,15.0
+K,51-9061,51-9061.00,True,0.21649939071662064,22.5414364640884,"Inspectors, Testers, Sorters, Samplers, and Weighers",21920.0,1.5,22.63,2.5,6.7,Moderate-term on-the-job training,True,False,False,16.0
+K,51-4033,51-4033.00,True,0.22323228277469775,23.425414364640883,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",2050.0,4.2,22.27,-10.8,5.1,Moderate-term on-the-job training,False,False,False,17.0
+K,51-2031,51-2031.00,True,0.22949137294153854,24.19889502762431,Engine and Other Machine Assemblers,19090.0,1.8,29.1,-17.0,5.5,Moderate-term on-the-job training,True,False,False,18.0
+K,51-4194,51-4194.00,True,0.25564089418086844,26.40883977900553,"Tool Grinders, Filers, and Sharpeners",100.0,9.4,32.48,-6.8,5.6,Moderate-term on-the-job training,False,False,True,19.0
+K,51-4081,51-4081.00,True,0.27000409472976294,28.176795580110497,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",13810.0,3.0,23.05,0.6,5.6,Moderate-term on-the-job training,True,False,False,20.0
+K,51-4051,51-4051.00,True,0.30725520508503523,32.04419889502763,Metal-Refining Furnace Operators and Tenders,420.0,4.4,23.67,-2.9,5.8,Moderate-term on-the-job training,False,False,True,21.0
+K,51-4023,51-4023.00,True,0.30881951963691323,32.26519337016575,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",270.0,7.5,22.64,-8.3,5.3,Moderate-term on-the-job training,False,False,True,22.0
+K,51-9198,51-9198.00,True,0.31527343688678977,33.25966850828729,Helpers--Production Workers,2270.0,7.6,19.99,-8.2,8.1,Short-term on-the-job training,False,False,False,23.0
+K,51-9191,51-9191.00,True,0.3173914294264274,33.591160220994475,Adhesive Bonding Machine Operators and Tenders,70.0,31.1,20.58,1.3,5.8,Moderate-term on-the-job training,False,False,True,24.0
+K,51-9041,51-9041.00,True,0.3268118676649881,34.14364640883978,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",820.0,14.5,23.68,1.5,5.3,Moderate-term on-the-job training,False,False,True,25.0
+K,51-2051,51-2051.00,True,0.3277193583537053,34.3646408839779,Fiberglass Laminators and Fabricators,70.0,24.2,21.6,4.6,6.0,Moderate-term on-the-job training,False,False,True,26.0
+K,51-4111,51-4111.00,True,0.3286007923215088,34.47513812154696,Tool and Die Makers,8930.0,2.7,35.02,-9.2,4.9,Long-term on-the-job training,True,False,False,27.0
+K,51-4122,51-4122.00,True,0.3747345639447906,38.56353591160221,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",4270.0,5.4,20.74,-8.9,6.2,Moderate-term on-the-job training,True,False,False,28.0
+K,51-9021,51-9021.00,True,0.3831477774420265,39.226519337016576,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",460.0,2.3,19.07,-1.7,5.6,Moderate-term on-the-job training,False,False,True,29.0
+K,51-6091,51-6091.00,True,0.3836767817492174,39.447513812154696,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",90.0,27.6,22.35,-3.3,4.5,Moderate-term on-the-job training,False,False,True,30.0
+K,51-2041,51-2041.00,True,0.41911172059139695,42.32044198895027,Structural Metal Fabricators and Fitters,80.0,16.4,21.83,-6.2,6.1,Moderate-term on-the-job training,False,False,True,31.0
+K,51-4021,51-4021.00,True,0.4260559069665377,43.20441988950276,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",330.0,6.3,20.96,0.7,5.3,Moderate-term on-the-job training,False,False,True,32.0
+K,51-4191,51-4191.00,True,0.43468152626773804,43.86740331491713,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",530.0,6.1,23.18,-9.5,5.6,Moderate-term on-the-job training,False,False,True,33.0
+K,51-4061,51-4061.00,True,0.4381787909404353,44.088397790055254,"Model Makers, Metal and Plastic",80.0,9.6,26.95,-17.3,6.6,Moderate-term on-the-job training,False,False,True,34.0
+K,51-6092,51-6092.00,True,0.440245716779599,44.30939226519337,Fabric and Apparel Patternmakers,30.0,38.2,24.65,-15.0,4.5,Moderate-term on-the-job training,False,False,True,35.0
+K,51-4041,51-4041.00,True,0.4730990847329237,48.39779005524862,Machinists,9360.0,3.1,26.09,1.0,5.4,Long-term on-the-job training,True,False,False,36.0
+K,51-4121,51-4121.00,True,0.5329269047957221,55.58011049723757,"Welders, Cutters, Solderers, and Brazers",14470.0,2.6,22.74,2.4,6.2,Moderate-term on-the-job training,True,False,False,37.0
+K,51-4072,51-4072.00,True,0.5476669370877704,58.011049723756905,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",8780.0,6.2,20.22,-3.4,6.6,Moderate-term on-the-job training,True,False,False,38.0
+K,51-7042,51-7042.00,True,0.6278366186872855,67.29281767955801,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",140.0,20.7,20.71,-2.5,6.1,Moderate-term on-the-job training,False,False,True,39.0
+K,51-9023,51-9023.00,True,0.6552688427863287,69.83425414364642,"Mixing and Blending Machine Setters, Operators, and Tenders",370.0,5.7,22.68,-6.1,5.6,Moderate-term on-the-job training,False,False,True,40.0
+K,51-9022,51-9022.00,True,0.6564013384935903,70.05524861878453,"Grinding and Polishing Workers, Hand",80.0,19.7,19.16,-19.2,5.6,Moderate-term on-the-job training,False,False,True,41.0
+K,51-5112,51-5112.00,True,0.6623544215200432,70.93922651933701,Printing Press Operators,140.0,41.0,20.26,-8.7,5.8,Moderate-term on-the-job training,False,False,True,42.0
+K,51-6093,51-6093.00,True,0.6925868059135399,75.13812154696133,Upholsterers,510.0,17.9,18.62,-2.3,3.7,Moderate-term on-the-job training,False,False,True,43.0
+K,51-6062,51-6062.00,True,0.7056849418997456,76.46408839779005,"Textile Cutting Machine Setters, Operators, and Tenders",120.0,29.3,18.03,-13.6,5.6,Moderate-term on-the-job training,False,False,True,44.0
+K,51-2028,51-2022.00;51-2023.00,True,0.7116344817740039,76.90607734806629,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",10990.0,3.3,20.29,5.0,5.5,Moderate-term on-the-job training,True,False,False,45.0
+K,51-4022,51-4022.00,True,0.7411625793262233,79.22651933701658,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",950.0,37.5,21.37,-17.2,5.3,Moderate-term on-the-job training,False,False,True,46.0
+K,51-9192,51-9192.00,True,0.7734139042661966,81.87845303867404,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",70.0,16.5,19.93,3.4,6.3,Moderate-term on-the-job training,False,False,True,47.0
+K,51-9123,51-9123.00,True,0.979164583425087,95.91160220994475,"Painting, Coating, and Decorating Workers",,,17.5,1.3,5.8,Moderate-term on-the-job training,False,True,True,48.0
+K,51-4031,51-4031.00,True,0.9916433702594553,96.57458563535911,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",27220.0,2.6,21.8,-10.5,6.0,Moderate-term on-the-job training,True,False,False,49.0
+K,51-9124,51-9124.00,True,1.0620740654540088,98.12154696132596,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",4640.0,7.2,21.98,2.5,5.8,Moderate-term on-the-job training,True,False,False,50.0
+K,51-6031,51-6031.00,True,1.1345604670416136,98.89502762430939,Sewing Machine Operators,2020.0,13.0,18.33,-15.1,5.3,Short-term on-the-job training,False,False,True,51.0
+K,51-4199,51-4199.00,False,,,"Metal Workers and Plastic Workers, All Other",190.0,13.3,19.87,-7.1,5.6,Moderate-term on-the-job training,False,False,True,
+K,51-9199,51-9199.00,False,,,"Production Workers, All Other",8790.0,4.0,19.35,0.8,6.3,Moderate-term on-the-job training,False,False,False,
+S,51-8021,51-8021.00,True,0.27358944082588627,5.524861878453039,Stationary Engineers and Boiler Operators,130.0,2.5,44.64,3.1,6.2,Long-term on-the-job training,False,False,True,1.0
+S,51-9161,51-9161.00,True,0.2850340855805577,5.966850828729282,Computer Numerically Controlled Tool Operators,9200.0,4.1,22.91,-9.4,6.1,Moderate-term on-the-job training,True,False,False,2.0
+S,51-4081,51-4081.00,True,0.32753559312868014,8.066298342541437,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",13810.0,3.0,23.05,0.6,5.6,Moderate-term on-the-job training,True,False,False,3.0
+S,51-4023,51-4023.00,True,0.3473759851676474,8.83977900552486,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",270.0,7.5,22.64,-8.3,5.3,Moderate-term on-the-job training,False,False,True,4.0
+S,51-4041,51-4041.00,True,0.3509216979870706,9.060773480662982,Machinists,9360.0,3.1,26.09,1.0,5.4,Long-term on-the-job training,True,False,False,5.0
+S,51-9162,51-9162.00,True,0.36300590453177967,9.281767955801106,Computer Numerically Controlled Tool Programmers,1260.0,10.5,27.66,5.9,6.1,Moderate-term on-the-job training,False,False,True,6.0
+S,51-8031,51-8031.00,True,0.37258246093859704,9.94475138121547,Water and Wastewater Treatment Plant and System Operators,100.0,13.8,24.54,-5.7,5.5,Long-term on-the-job training,False,False,True,7.0
+S,51-1011,51-1011.00,True,0.39909476351625933,11.602209944751381,First-Line Supervisors of Production and Operating Workers,22500.0,0.8,33.72,1.8,5.6,None,True,False,False,8.0
+S,51-5112,51-5112.00,True,0.41866072662544707,12.375690607734807,Printing Press Operators,140.0,41.0,20.26,-8.7,5.8,Moderate-term on-the-job training,False,False,True,9.0
+S,51-9021,51-9021.00,True,0.45012180993157325,14.033149171270717,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",460.0,2.3,19.07,-1.7,5.6,Moderate-term on-the-job training,False,False,True,10.0
+S,51-4111,51-4111.00,True,0.5052693132443912,17.569060773480665,Tool and Die Makers,8930.0,2.7,35.02,-9.2,4.9,Long-term on-the-job training,True,False,False,11.0
+S,51-4191,51-4191.00,True,0.5148696805889679,17.900552486187845,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",530.0,6.1,23.18,-9.5,5.6,Moderate-term on-the-job training,False,False,True,12.0
+S,51-6091,51-6091.00,True,0.576209887815183,22.099447513812155,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",90.0,27.6,22.35,-3.3,4.5,Moderate-term on-the-job training,False,False,True,13.0
+S,51-4021,51-4021.00,True,0.5911178262230291,23.425414364640883,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",330.0,6.3,20.96,0.7,5.3,Moderate-term on-the-job training,False,False,True,14.0
+S,51-6093,51-6093.00,True,0.5940281950699515,23.535911602209943,Upholsterers,510.0,17.9,18.62,-2.3,3.7,Moderate-term on-the-job training,False,False,True,15.0
+S,51-4051,51-4051.00,True,0.604657415824696,24.41988950276243,Metal-Refining Furnace Operators and Tenders,420.0,4.4,23.67,-2.9,5.8,Moderate-term on-the-job training,False,False,True,16.0
+S,51-9191,51-9191.00,True,0.6067059623138642,24.64088397790055,Adhesive Bonding Machine Operators and Tenders,70.0,31.1,20.58,1.3,5.8,Moderate-term on-the-job training,False,False,True,17.0
+S,51-9023,51-9023.00,True,0.6186256531959101,25.41436464088398,"Mixing and Blending Machine Setters, Operators, and Tenders",370.0,5.7,22.68,-6.1,5.6,Moderate-term on-the-job training,False,False,True,18.0
+S,51-4032,51-4032.00,True,0.6238362759538689,25.96685082872928,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",390.0,7.5,21.67,-9.5,6.3,Moderate-term on-the-job training,False,False,True,19.0
+S,51-9032,51-9032.00,True,0.6357037311741389,26.519337016574585,"Cutting and Slicing Machine Setters, Operators, and Tenders",190.0,23.0,19.31,-0.9,6.3,Moderate-term on-the-job training,False,False,True,20.0
+S,51-6062,51-6062.00,True,0.6513202527824578,27.513812154696133,"Textile Cutting Machine Setters, Operators, and Tenders",120.0,29.3,18.03,-13.6,5.6,Moderate-term on-the-job training,False,False,True,21.0
+S,51-6092,51-6092.00,True,0.6594238028573081,28.066298342541433,Fabric and Apparel Patternmakers,30.0,38.2,24.65,-15.0,4.5,Moderate-term on-the-job training,False,False,True,22.0
+S,51-4194,51-4194.00,True,0.6648465194133109,28.7292817679558,"Tool Grinders, Filers, and Sharpeners",100.0,9.4,32.48,-6.8,5.6,Moderate-term on-the-job training,False,False,True,23.0
+S,51-2031,51-2031.00,True,0.6663477544938388,29.2817679558011,Engine and Other Machine Assemblers,19090.0,1.8,29.1,-17.0,5.5,Moderate-term on-the-job training,True,False,False,24.0
+S,51-4061,51-4061.00,True,0.6668261434928561,29.502762430939228,"Model Makers, Metal and Plastic",80.0,9.6,26.95,-17.3,6.6,Moderate-term on-the-job training,False,False,True,25.0
+S,51-9061,51-9061.00,True,0.7084601496439064,33.70165745856354,"Inspectors, Testers, Sorters, Samplers, and Weighers",21920.0,1.5,22.63,2.5,6.7,Moderate-term on-the-job training,True,False,False,26.0
+S,51-2090,51-2092.00,True,0.7221636086946456,35.13812154696133,Miscellaneous Assemblers and Fabricators,129460.0,0.9,20.97,1.1,6.0,Moderate-term on-the-job training,True,False,False,27.0
+S,51-4192,51-4192.00,True,0.7241258814924373,35.469613259668506,"Layout Workers, Metal and Plastic",90.0,19.4,28.72,-3.4,5.6,Moderate-term on-the-job training,False,False,True,28.0
+S,51-4031,51-4031.00,True,0.7465804628930768,37.4585635359116,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",27220.0,2.6,21.8,-10.5,6.0,Moderate-term on-the-job training,True,False,False,29.0
+S,51-9041,51-9041.00,True,0.7550521083782236,38.89502762430939,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",820.0,14.5,23.68,1.5,5.3,Moderate-term on-the-job training,False,False,True,30.0
+S,51-4035,51-4035.00,True,0.7694584516517221,40.994475138121544,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",510.0,43.3,14.35,-13.2,6.3,Moderate-term on-the-job training,False,False,True,31.0
+S,51-2051,51-2051.00,True,0.7818834124770271,42.430939226519335,Fiberglass Laminators and Fabricators,70.0,24.2,21.6,4.6,6.0,Moderate-term on-the-job training,False,False,True,32.0
+S,51-4033,51-4033.00,True,0.7853872783467336,42.87292817679558,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",2050.0,4.2,22.27,-10.8,5.1,Moderate-term on-the-job training,False,False,False,33.0
+S,51-9124,51-9124.00,True,0.7943470357523031,43.53591160220994,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",4640.0,7.2,21.98,2.5,5.8,Moderate-term on-the-job training,True,False,False,34.0
+S,51-4072,51-4072.00,True,0.7946639370828149,43.646408839779006,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",8780.0,6.2,20.22,-3.4,6.6,Moderate-term on-the-job training,True,False,False,35.0
+S,51-4022,51-4022.00,True,0.7983785896000241,44.19889502762431,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",950.0,37.5,21.37,-17.2,5.3,Moderate-term on-the-job training,False,False,True,36.0
+S,51-9022,51-9022.00,True,0.8012150674021097,44.53038674033149,"Grinding and Polishing Workers, Hand",80.0,19.7,19.16,-19.2,5.6,Moderate-term on-the-job training,False,False,True,37.0
+S,51-4122,51-4122.00,True,0.8029166472331545,44.86187845303867,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",4270.0,5.4,20.74,-8.9,6.2,Moderate-term on-the-job training,True,False,False,38.0
+S,51-4193,51-4193.00,True,0.8162380307829223,46.07734806629834,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",920.0,27.3,18.4,-9.7,5.6,Moderate-term on-the-job training,False,False,True,39.0
+S,51-4034,51-4034.00,True,0.8363286829440985,47.73480662983425,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",400.0,17.6,23.65,-11.3,6.3,Moderate-term on-the-job training,False,False,True,40.0
+S,51-7042,51-7042.00,True,0.8504867761340312,49.50276243093923,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",140.0,20.7,20.71,-2.5,6.1,Moderate-term on-the-job training,False,False,True,41.0
+S,51-2028,51-2022.00;51-2023.00,True,0.8851873922451213,53.812154696132595,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",10990.0,3.3,20.29,5.0,5.5,Moderate-term on-the-job training,True,False,False,42.0
+S,51-9111,51-9111.00,True,0.9093861601271988,57.90055248618785,Packaging and Filling Machine Operators and Tenders,690.0,10.2,19.86,4.1,5.8,Moderate-term on-the-job training,False,False,True,43.0
+S,51-4121,51-4121.00,True,1.2012664385066796,88.7292817679558,"Welders, Cutters, Solderers, and Brazers",14470.0,2.6,22.74,2.4,6.2,Moderate-term on-the-job training,True,False,False,44.0
+S,51-9192,51-9192.00,True,1.207038991707595,88.95027624309392,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",70.0,16.5,19.93,3.4,6.3,Moderate-term on-the-job training,False,False,True,45.0
+S,51-2041,51-2041.00,True,1.2524337694897192,90.93922651933701,Structural Metal Fabricators and Fitters,80.0,16.4,21.83,-6.2,6.1,Moderate-term on-the-job training,False,False,True,46.0
+S,51-2021,51-2021.00,True,1.275061826837851,91.49171270718232,"Coil Winders, Tapers, and Finishers",160.0,20.7,22.38,-4.0,5.5,Moderate-term on-the-job training,False,False,True,47.0
+S,51-4071,51-4071.00,True,1.3449461996972552,93.8121546961326,Foundry Mold and Coremakers,460.0,4.3,21.57,-23.0,6.6,Moderate-term on-the-job training,False,False,True,48.0
+S,51-9123,51-9123.00,True,1.3683779996071646,94.47513812154696,"Painting, Coating, and Decorating Workers",,,17.5,1.3,5.8,Moderate-term on-the-job training,False,True,True,49.0
+S,51-6031,51-6031.00,True,1.4984840567147193,96.24309392265194,Sewing Machine Operators,2020.0,13.0,18.33,-15.1,5.3,Short-term on-the-job training,False,False,True,50.0
+S,51-9198,51-9198.00,True,1.5331460898251337,96.46408839779006,Helpers--Production Workers,2270.0,7.6,19.99,-8.2,8.1,Short-term on-the-job training,False,False,False,51.0
+S,51-4199,51-4199.00,False,,,"Metal Workers and Plastic Workers, All Other",190.0,13.3,19.87,-7.1,5.6,Moderate-term on-the-job training,False,False,True,
+S,51-9199,51-9199.00,False,,,"Production Workers, All Other",8790.0,4.0,19.35,0.8,6.3,Moderate-term on-the-job training,False,False,False,

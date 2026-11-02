@@ -1,0 +1,21 @@
+key,check,group,event,n_den,n_num,pct,lo,hi,reportable,not_reportable_reason,role
+q2|main|destination_mfg_t|any_employer,main,destination_mfg_t,any_employer,440,99,22.02715370800971,18.03792004512072,26.459644788749447,True,,registered primary
+q2|main|destination_mfg_t|same_employer,main,destination_mfg_t,same_employer,135,40,28.84798281107817,20.802925098097536,37.165401555990755,True,,registered primary
+q2|main|as_written_mfg_t-1|any_employer,main,as_written_mfg_t-1,any_employer,377,149,39.80618046753141,34.6760359071106,45.29021760028192,True,,registered primary
+q2|main|as_written_mfg_t-1|same_employer,main,as_written_mfg_t-1,same_employer,132,44,33.684787574928386,25.230776044738604,42.33566571666164,True,,registered primary
+q2|i_persistence|destination_mfg_t|any_employer,i_persistence,destination_mfg_t,any_employer,351,81,23.140966938628598,18.367838715242364,27.949188419830335,True,,check
+q2|i_persistence|destination_mfg_t|same_employer,i_persistence,destination_mfg_t,same_employer,119,38,31.315802953134433,22.208736962627086,40.889686381671034,True,,check
+q2|i_persistence|as_written_mfg_t-1|any_employer,i_persistence,as_written_mfg_t-1,any_employer,309,122,40.165267433438146,34.72553940027312,46.08397603572803,True,,check
+q2|i_persistence|as_written_mfg_t-1|same_employer,i_persistence,as_written_mfg_t-1,same_employer,114,42,37.60360908565297,27.89846516839627,47.9040240390829,True,,check
+q2|ii_excl_2020_2021|destination_mfg_t|any_employer,ii_excl_2020_2021,destination_mfg_t,any_employer,309,68,21.672313789847216,16.812314867013605,27.086058211527394,True,,check
+q2|ii_excl_2020_2021|destination_mfg_t|same_employer,ii_excl_2020_2021,destination_mfg_t,same_employer,92,27,28.923608690545116,19.24647776129094,39.67935060286316,True,,check
+q2|ii_excl_2020_2021|as_written_mfg_t-1|any_employer,ii_excl_2020_2021,as_written_mfg_t-1,any_employer,271,109,40.02386714013882,34.11342587460982,46.47665330806564,True,,check
+q2|ii_excl_2020_2021|as_written_mfg_t-1|same_employer,ii_excl_2020_2021,as_written_mfg_t-1,same_employer,90,29,32.842070727637484,22.539439229416804,44.08213654193262,True,,check
+q2|iii_industry_3570|destination_mfg_t|any_employer,iii_industry_3570,destination_mfg_t,any_employer,22,7,34.14966932883018,9.882590953659461,60.09197345000289,False,n < 30,check
+q2|iii_industry_3570|destination_mfg_t|same_employer,iii_industry_3570,destination_mfg_t,same_employer,12,5,42.48121379516159,12.569325878399551,72.95320977104231,False,n < 30,check
+q2|iii_industry_3570|as_written_mfg_t-1|any_employer,iii_industry_3570,as_written_mfg_t-1,any_employer,27,14,50.82686237342287,30.14790520391654,71.88232342144502,False,n < 30,check
+q2|iii_industry_3570|as_written_mfg_t-1|same_employer,iii_industry_3570,as_written_mfg_t-1,same_employer,13,7,57.25981412695698,26.446762596923385,85.44673304549649,False,n < 30,check
+q2|iv_no_allocation|destination_mfg_t|any_employer,iv_no_allocation,destination_mfg_t,any_employer,274,88,31.54977530307274,26.04000775599041,37.61682491777249,True,,headline (DL-42)
+q2|iv_no_allocation|destination_mfg_t|same_employer,iv_no_allocation,destination_mfg_t,same_employer,90,39,42.859618890278504,31.59994741437637,54.52509518840067,True,,headline (DL-42)
+q2|iv_no_allocation|as_written_mfg_t-1|any_employer,iv_no_allocation,as_written_mfg_t-1,any_employer,251,111,44.6738361199198,38.076554626882924,51.38894826479447,True,,headline (DL-42)
+q2|iv_no_allocation|as_written_mfg_t-1|same_employer,iv_no_allocation,as_written_mfg_t-1,same_employer,88,40,46.48353159834131,34.85015602884553,58.19435311430966,True,,headline (DL-42)

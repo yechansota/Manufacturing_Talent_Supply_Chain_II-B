@@ -1,0 +1,19 @@
+domain,form,n_core_above,n_core,n_core_below_local_median
+S,polynomial degree 1,0,12,
+S,polynomial degree 2,0,12,
+S,polynomial degree 3,0,12,
+S,"local q95, 50 nearest in D",0,12,12.0
+S,"local q95, 100 nearest in D",0,12,12.0
+S,"local q95, 200 nearest in D",0,12,12.0
+K,polynomial degree 1,0,12,
+K,polynomial degree 2,0,12,
+K,polynomial degree 3,0,12,
+K,"local q95, 50 nearest in D",0,12,11.0
+K,"local q95, 100 nearest in D",0,12,11.0
+K,"local q95, 200 nearest in D",0,12,12.0
+A,polynomial degree 1,1,12,
+A,polynomial degree 2,0,12,
+A,polynomial degree 3,0,12,
+A,"local q95, 50 nearest in D",0,12,10.0
+A,"local q95, 100 nearest in D",0,12,11.0
+A,"local q95, 200 nearest in D",0,12,10.0

@@ -1,0 +1,13 @@
+variant,domain,n_close,median_P_width,max_exceed_share
+comonotone,A,1,31.999999999999993,0.719
+comonotone,K,0,74.09116022099448,0.001
+comonotone,S,2,60.67955801104971,0.01
+copula,A,4,16.302486187845304,0.724
+copula,K,0,49.89364640883977,0.0
+copula,S,3,35.59116022099448,0.002
+mi_se,A,7,7.569060773480663,0.793
+mi_se,K,1,22.987569060773474,0.0
+mi_se,S,3,14.366022099447516,0.0
+"registered (independent, median SE)",A,7,7.571823204419893,0.809
+"registered (independent, median SE)",K,1,23.321823204419882,0.0
+"registered (independent, median SE)",S,3,14.366022099447518,0.0

@@ -1,0 +1,2 @@
+B,seed,seconds,se_imputed_K_cells,point_consistency_max_dev,centering,max_P_hi_mc_se
+1000,20261003,123.9,16962,1.4210854715202004e-14,"A: median (boot mean D − point D) = -0.0036, max |.| = 0.0192 | K: median (boot mean D − point D) = +0.0288, max |.| = 0.0860 | S: median (boot mean D − point D) = -0.0091, max |.| = 0.0309",1.6666666666666572

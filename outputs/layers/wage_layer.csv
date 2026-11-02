@@ -1,0 +1,24 @@
+soc6,role,title,emp_3363,emp_rse,h_median,a_median,mean_wage_rse,gap_to_49_9041,gap_to_family_approx,gap_to_family_pct
+49-9041,target_core,Industrial Machinery Mechanics,13210.0,1.3,30.88,64220,0.4,0.0,1.7800622027076507,5.764450138301978
+49-9071,target_core,"Maintenance and Repair Workers, General",8170.0,1.6,30.31,63040,0.4,0.5700000000000003,2.350062202707651,7.7534219818794154
+47-2111,target_core,Electricians,2920.0,2.8,43.89,91290,0.3,-13.010000000000002,-11.22993779729235,-25.586552283646274
+49-9043,target_core,"Maintenance Workers, Machinery",1690.0,3.0,29.58,61530,0.4,1.3000000000000007,3.0800622027076514,10.412651124772317
+49-9044,target_core,Millwrights,1340.0,2.2,43.95,91410,0.2,-13.070000000000004,-11.289937797292353,-25.688140608173725
+49-2094,target_sensitivity,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",230.0,11.3,32.25,67080,1.6,-1.370000000000001,0.4100622027076497,1.2715107060702315
+17-3024,target_sensitivity,Electro-Mechanical and Mechatronics Technologists and Technicians,330.0,7.7,31.66,65840,1.7,-0.7800000000000011,1.0000622027076496,3.1587561677436815
+51-2090,feeder_core,Miscellaneous Assemblers and Fabricators,129460.0,0.9,20.97,43620,0.2,9.91,11.69006220270765,55.74660087128112
+51-4031,feeder_core,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",27220.0,2.6,21.8,45350,0.6,9.079999999999998,10.860062202707649,49.816799094989214
+51-2031,feeder_core,Engine and Other Machine Assemblers,19090.0,1.8,29.1,60530,0.6,1.7799999999999976,3.5600622027076483,12.233890730954117
+51-9061,feeder_core,"Inspectors, Testers, Sorters, Samplers, and Weighers",21920.0,1.5,22.63,47070,0.4,8.25,10.03006220270765,44.32197173092201
+51-4121,feeder_core,"Welders, Cutters, Solderers, and Brazers",14470.0,2.6,22.74,47300,0.5,8.14,9.920062202707651,43.62384433908378
+51-4081,feeder_core,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",13810.0,3.0,23.05,47940,0.8,7.829999999999998,9.610062202707649,41.69224382953426
+51-4041,feeder_core,Machinists,9360.0,3.1,26.09,54270,0.6,4.789999999999999,6.57006220270765,25.182300508653313
+51-2028,feeder_core,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",10990.0,3.3,20.29,42210,0.5,10.59,12.37006220270765,60.96629966834722
+51-9161,feeder_core,Computer Numerically Controlled Tool Operators,9200.0,4.1,22.91,47650,1.4,7.969999999999999,9.75006220270765,42.558106515528806
+51-4072,feeder_core,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",8780.0,6.2,20.22,42050,0.9,10.66,12.44006220270765,61.523551942174336
+51-4122,feeder_core,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",4270.0,5.4,20.74,43130,1.0,10.14,11.920062202707651,57.473781112380195
+51-9124,feeder_core,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",4640.0,7.2,21.98,45730,0.8,8.899999999999999,10.68006220270765,48.58990993042607
+51-1011,sensitivity,First-Line Supervisors of Production and Operating Workers,22500.0,0.8,33.72,70140,0.3,-2.84,-1.0599377972923492,-3.1433505257780223
+51-4111,sensitivity,Tool and Die Makers,8930.0,2.7,35.02,72840,0.5,-4.140000000000004,-2.3599377972923534,-6.7388286616000945
+17-3026,sensitivity,Industrial Engineering Technologists and Technicians,6130.0,1.3,30.55,63550,0.4,0.3299999999999983,2.110062202707649,6.906913920483303
+53-7062,negative_control,"Laborers and Freight, Stock, and Material Movers, Hand",18040.0,1.8,21.56,44840,0.3,9.32,11.100062202707651,51.48451856543438

@@ -1,0 +1,221 @@
+# =============================================================================
+# Pre-registration parameters — "From the Line to Maintenance"
+# Single source of truth for every analysis choice. Code reads choices from
+# this file only; researcher degrees of freedom are enumerated in `multiverse`.
+#
+# Freeze protocol: once ingest + audit + frame validation pass, run
+#   python scripts/freeze.py
+# which records the SHA-256 of this file in outputs/freeze_record.md.
+# Any later edit must be logged in outputs/deviation_log.md BEFORE the
+# affected analysis is run; `python scripts/freeze.py --verify` detects edits.
+# =============================================================================
+
+meta:
+  project: "From the Line to Maintenance"
+  prereg_version: "0.3"
+  status: "frozen"            # set to "frozen" by scripts/freeze.py
+  frozen_at_utc: "2026-10-18T19:11:28Z"
+  changelog:
+    - "0.1: initial draft (estimands, decision rules, multiverse)."
+    - "0.2: O*NET 31.0 schema — Skills domain delivered as essential_skills (10) + transferable_skills (25); S = union (primary), files separately (sensitivity)."
+    - "0.3 (2026-10-18, pre-freeze, before any estimand was computed):
+       (a) K rater corrected: O*NET 31.0 Knowledge ratings come from Incumbent (653 occ.), Occupational Expert (248), Analyst - Transition (9) — not incumbents only;
+       (b) D1: 51-2028 maps one-to-many to 51-2022.00 + 51-2023.00 (BLS O*NET-SOC->NEM crosswalk, as of 08/27/2026); primary = equal-weight profile mean, sensitivity = each code separately;
+       (c) D2: Knowledge rows without a published SE (all Occupational Expert and Analyst - Transition rows; 257 of 910 occupations, incl. core target 49-9044) receive an imputed SE = median SE of Incumbent-rated occupations for the same element x scale, in the frame and in the reference universe; sensitivity = drop affected frame codes from the K domain;
+       (d) D3: selection rules re-applied to the pinned OEWS May 2025 file -> 51-9124 added to feeders_core; the May 2023 frame (without 51-9124) becomes a sensitivity frame. 51-4122 retained (RSE 5.4%);
+       (e) BLS crosswalk check found three further one-to-many NEM codes in the frame; the extra O*NET codes are excluded with documented reasons (onet_crosswalk.overrides.*.excluded_codes): 51-2099.00, 17-3026.01, 53-7062.04."
+
+# -----------------------------------------------------------------------------
+# Data versions (pinned). Ingest fails on mismatch when strict_version_check.
+# -----------------------------------------------------------------------------
+data_versions:
+  onet:
+    release: "31.0"
+    format: "csv"
+    # rows = occupations x elements x scales (910 x n_elements x 2)
+    files:
+      knowledge:           {file: "knowledge.csv",           domain: "K", expected_rows: 60060, expected_elements: 33}
+      abilities:           {file: "abilities.csv",           domain: "A", expected_rows: 94640, expected_elements: 52}
+      essential_skills:    {file: "essential_skills.csv",    domain: "S", expected_rows: 18200, expected_elements: 10}
+      transferable_skills: {file: "transferable_skills.csv", domain: "S", expected_rows: 45500, expected_elements: 25}
+    expected_occupations: 910
+    expected_columns:
+      - "O*NET-SOC Code"
+      - "Title"
+      - "Element ID"
+      - "Element Name"
+      - "Scale ID"
+      - "Scale Name"
+      - "Data Value"
+      - "N"
+      - "Standard Error"
+      - "Lower CI Bound"
+      - "Upper CI Bound"
+      - "Recommend Suppress"
+      - "Not Relevant"
+      - "Date"
+      - "Domain Source"
+  oews:
+    reference_period: "May 2025"
+    file: "oesm25in4.zip"
+    member: "oesm25in4/nat4d_M2025_dl.xlsx"
+    naics: "336300"            # Motor Vehicle Parts Manufacturing (national, cross-ownership)
+    area: "99"                 # U.S.
+    expected_total_employment: 538980
+  ep:
+    projection_period: "2025–35"
+    occupation_file: {file: "occupation.xlsx", sheet: "Table 1.10", title_must_contain: "2025–35"}
+    education_file:  {file: "education.xlsx",  sheet: "Table 5.4",  title_must_contain: "2025"}
+    crosswalk_file:  {file: "nem-onet-to-soc-crosswalk.xlsx", sheet: "Crosswalk", as_of: "08/27/2026"}
+
+strict_version_check: true
+
+# -----------------------------------------------------------------------------
+# Analysis frame (SOC 2018, 6-digit). Selected by ex-ante rules, NOT by KSA.
+# -----------------------------------------------------------------------------
+frame:
+  selection_data: "OEWS May 2025, NAICS 336300"
+  selection_rules:
+    target: {description: "Equipment maintenance / repair / electrical function", min_employment: 1000, max_rse: 10.0}
+    feeder: {description: "SOC major group 51 detailed occupations (OEWS also publishes broad 51-2090 as a detailed row); exclude 'All Other'", major_group: "51", min_employment: 4000, max_rse: 10.0}
+  # Occupations that satisfy the mechanical feeder rule but are assigned another
+  # role by design (decided before any KSA computation).
+  design_exclusions_from_feeder:
+    "51-1011": "Supervisory career path, not a maintenance feeder -> sensitivity"
+    "51-4111": "Scarce skilled trade; counting it as a feeder double-counts scarce pools -> comparison only"
+  targets_core:        ["49-9041", "49-9071", "47-2111", "49-9043", "49-9044"]
+  targets_sensitivity: ["49-2094", "17-3024"]
+  feeders_core: ["51-2090", "51-4031", "51-2031", "51-9061", "51-4121",
+                 "51-4081", "51-4041", "51-2028", "51-9161", "51-4072", "51-4122", "51-9124"]
+  feeders_sensitivity_frame_may2023: ["51-2090", "51-4031", "51-2031", "51-9061", "51-4121",
+                                      "51-4081", "51-4041", "51-2028", "51-9161", "51-4072", "51-4122"]
+  sensitivity_occupations: ["51-1011", "51-4111", "17-3026"]
+  negative_controls: ["53-7062"]
+  excluded: ["51-9199"]
+
+# SOC 6-digit -> O*NET-SOC 8-digit mapping.
+# Default rule: SOC + ".00". Overrides are explicit, documented choices and are
+# cross-checked against the BLS O*NET-SOC -> NEM crosswalk in src/ingest_ep.py:
+# every O*NET code BLS assigns to a frame SOC code must be either mapped here
+# (primary / sensitivity_codes) or listed in excluded_codes with a reason.
+onet_crosswalk:
+  default_suffix: ".00"
+  overrides:
+    "51-2090":
+      primary: ["51-2092.00"]          # Team Assemblers; BLS data use 51-2090 (also contains 51-2099 All Other)
+      aggregation: "single"
+      excluded_codes: {"51-2099.00": "'All Other' residual; no O*NET ratings in release 31.0"}
+      note: "Proxy mapping — 51-2090 employment is an upper bound for team assemblers."
+    "17-3026":
+      primary: ["17-3026.00"]
+      aggregation: "single"
+      excluded_codes: {"17-3026.01": "Nanotechnology Engineering Technologists and Technicians — specialty outside the auto-parts maintenance context"}
+    "53-7062":
+      primary: ["53-7062.00"]
+      aggregation: "single"
+      excluded_codes: {"53-7062.04": "Recycling and Reclamation Workers — distinct occupation; the negative control is hand laborers/material movers"}
+    "51-2028":
+      primary: ["51-2022.00", "51-2023.00"]
+      aggregation: "equal_weight_profile_mean"   # D1; no within-51-2028 employment split is published
+      sensitivity: "each_code_separately"
+    "17-3024":
+      primary: ["17-3024.00"]
+      sensitivity_codes: ["17-3024.01"]          # Robotics Technicians
+      aggregation: "single"
+
+# -----------------------------------------------------------------------------
+# Measurement
+# -----------------------------------------------------------------------------
+measurement:
+  domains:
+    K: {files: ["knowledge"], rater: "mixed: Incumbent / Occupational Expert / Analyst - Transition (see Domain Source)"}
+    S: {files: ["essential_skills", "transferable_skills"], rater: "Analyst"}
+    A: {files: ["abilities"], rater: "Analyst"}
+  report_domains_separately: true      # never sum across K/S/A
+  scales:
+    level:      {id: "LV", min: 0, max: 7}
+    importance: {id: "IM", min: 1, max: 5}
+  reference_universe: "all O*NET occupations with ratings in the domain (excluding the target itself when ranking)"
+  standardization_primary: "z"         # z_ok = (L_ok - mean_k) / sd_k over the reference universe
+  weights_primary: "importance_minus_one"   # w_jk = I_jk - 1 in [0, 4]
+  suppress_primary: "keep_and_propagate_se"
+  suppress_flag_missing: "treated as not suppressed in the 'drop' multiverse branch (flag absent for Occupational Expert K rows)"
+  not_relevant_primary: "as_published"
+  missing_se:                          # D2
+    primary: "impute_median_se_incumbent_by_element_scale"
+    sensitivity: "drop_frame_codes_without_se_from_domain"
+  family_target:
+    weights_primary: "naics3363_employment_share"
+    weights_sensitivity: "equal"
+
+# -----------------------------------------------------------------------------
+# Estimands (formulas documented in the poster appendix; listed for traceability)
+# -----------------------------------------------------------------------------
+estimands:
+  primary:
+    id: "H2"
+    name: "Deficit concentration C^(m), adjusted for total deficit D"
+    top_m: 5
+    test: "Residual of C regressed on D (fit over reference universe) exceeds the 95th percentile of the reference residual distribution"
+  secondary:
+    - id: "H1"
+      name: "Proximity percentile P (lower = closer)"
+      threshold_upper_ci_percentile: 25
+    - id: "H1-group"
+      name: "Machining/welding group vs assembly group, exact label-permutation test (descriptive p-value)"
+  descriptive_layers: ["wage_gap_oews_3363", "ep_demand_2025_35 (all-industry, national)", "regulatory_gates"]
+
+# -----------------------------------------------------------------------------
+# Uncertainty & decision rules
+# -----------------------------------------------------------------------------
+uncertainty:
+  bootstrap:
+    B: 1000
+    seed: 20261003
+    method: "parametric, truncated normal per rating using published (or imputed, see measurement.missing_se) SE"
+    applies_to: "primary specification only"
+    recompute_reference_each_draw: true
+    known_limitation: "Assumes independence across elements; true inter-element correlation makes interval coverage unknown in direction."
+  ci_level: 0.95
+
+decision_rules:
+  stop_rule:
+    metric: "share of rating rows with Recommend Suppress == 'Y' among primary O*NET codes of targets_core + feeders_core + negative_controls, per domain"
+    denominator: "rows with a non-missing Recommend Suppress flag (missing flags reported separately)"
+    max_rate: 0.20
+    action: "exclude domain from primary analysis; report in appendix"
+  validity_check:
+    negative_control_min_percentile: 50
+    action_on_fail: "declare measure failure; do not interpret H1"
+  fdr_q: 0.05
+
+# -----------------------------------------------------------------------------
+# Multiverse grid (point estimates only; 3*2*2*2*2*2 = 96 specs per domain)
+# -----------------------------------------------------------------------------
+multiverse:
+  standardization: ["z", "raw", "percentile"]
+  weights: ["importance_minus_one", "equal"]
+  suppress: ["keep", "drop"]
+  not_relevant: ["as_published", "zero"]
+  feeder_employment_threshold: [4000, 2000]
+  family_weights: ["employment_share", "equal"]
+
+# -----------------------------------------------------------------------------
+# Prohibited uses (must appear on the poster)
+# -----------------------------------------------------------------------------
+prohibited_uses:
+  - "Individual selection or screening (UGESP applies to promotion and to training selection that leads to it; results are for recruitment/outreach design only)."
+  - "Claims of labor 'shortage'."
+  - "Inference about a specific region or plant (NAICS 3363 data are national)."
+  - "Causal interpretation."
+
+# -----------------------------------------------------------------------------
+# Paths (relative to repo root)
+# -----------------------------------------------------------------------------
+paths:
+  raw_onet: "data/raw/onet"
+  raw_oews: "data/raw/oews"
+  raw_ep: "data/raw/ep"
+  duckdb: "data/interim/project.duckdb"
+  audit_out: "outputs/audit"
+  validation_out: "outputs/validation"

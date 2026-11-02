@@ -1,0 +1,4 @@
+domain,n_specs,share_h2_supported_linear,share_h2_supported_log,share_direction_lower_tail (exploratory),share_validity_pass,share_breadth_wide (exploratory),agreement_h2_linear_with_primary,agreement_validity_with_primary,median_n_exceed_linear,max_n_exceed_linear,median_of_median_rpct_linear
+A,96,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1,7.817679558011049
+K,96,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,2,9.22439490930699
+S,96,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,8.121546961325969

@@ -1,0 +1,154 @@
+domain,metric,feeder,role,value,percentile
+A,D (registered),51-2090,feeder_core,0.6479941433883315,33.25966850828729
+A,D (registered),51-4031,feeder_core,0.49607838340018734,20.331491712707184
+A,D (registered),51-2031,feeder_core,0.45028807622585454,16.906077348066297
+A,D (registered),51-9061,feeder_core,0.6215862902433217,31.04972375690608
+A,D (registered),51-4121,feeder_core,0.678852022360888,35.690607734806626
+A,D (registered),51-4081,feeder_core,0.3697714303014252,10.165745856353592
+A,D (registered),51-4041,feeder_core,0.30181752730542705,6.519337016574586
+A,D (registered),51-2028,feeder_core,0.7651067457257081,43.31491712707182
+A,D (registered),51-9161,feeder_core,0.16802775853580085,1.8784530386740332
+A,D (registered),51-4072,feeder_core,0.47599816664230116,19.226519337016573
+A,D (registered),51-4122,feeder_core,0.6214888128615975,30.939226519337016
+A,D (registered),51-9124,feeder_core,0.46156570402548025,17.458563535911605
+A,D (registered),51-1011,sensitivity,0.4850767494352164,20.11049723756906
+A,D (registered),51-4111,sensitivity,0.4358256579180141,15.359116022099448
+A,D (registered),17-3026,sensitivity,0.8183276362722676,47.29281767955801
+A,D (registered),53-7062,negative_control,0.7326586874108544,40.66298342541437
+A,weighted Euclidean (non-directional),51-2090,feeder_core,0.8220498642947176,19.226519337016573
+A,weighted Euclidean (non-directional),51-4031,feeder_core,0.6776490060633467,10.05524861878453
+A,weighted Euclidean (non-directional),51-2031,feeder_core,0.6179751720138139,6.519337016574586
+A,weighted Euclidean (non-directional),51-9061,feeder_core,0.8380923819311901,20.11049723756906
+A,weighted Euclidean (non-directional),51-4121,feeder_core,0.8844295752044914,23.093922651933703
+A,weighted Euclidean (non-directional),51-4081,feeder_core,0.5905035984973912,4.861878453038674
+A,weighted Euclidean (non-directional),51-4041,feeder_core,0.5234562731248508,3.0939226519337018
+A,weighted Euclidean (non-directional),51-2028,feeder_core,0.978614523485552,28.839779005524864
+A,weighted Euclidean (non-directional),51-9161,feeder_core,0.5023677680733318,1.8784530386740332
+A,weighted Euclidean (non-directional),51-4072,feeder_core,0.6355233537625585,7.513812154696133
+A,weighted Euclidean (non-directional),51-4122,feeder_core,0.8051365093216094,17.790055248618785
+A,weighted Euclidean (non-directional),51-9124,feeder_core,0.6261598394830724,6.961325966850829
+A,weighted Euclidean (non-directional),51-1011,sensitivity,0.8234134524371921,19.337016574585636
+A,weighted Euclidean (non-directional),51-4111,sensitivity,0.7654843689379055,15.91160220994475
+A,weighted Euclidean (non-directional),17-3026,sensitivity,1.321119357691643,48.1767955801105
+A,weighted Euclidean (non-directional),53-7062,negative_control,0.9751557010004493,28.50828729281768
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-2090,feeder_core,7.488613398674915,15.248618784530388
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4031,feeder_core,7.92180786783184,29.83425414364641
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-2031,feeder_core,7.670977560614631,20.662983425414364
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-9061,feeder_core,7.611487148802648,18.23204419889503
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4121,feeder_core,10.227564836888096,92.15469613259668
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4081,feeder_core,8.068641118445134,36.13259668508287
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4041,feeder_core,7.751435831961976,22.983425414364643
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-2028,feeder_core,7.076071440643536,7.18232044198895
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-9161,feeder_core,7.108398551815133,7.624309392265194
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4072,feeder_core,8.66055219316345,57.4585635359116
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4122,feeder_core,9.111563954887318,71.60220994475138
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-9124,feeder_core,8.337058174375223,46.850828729281766
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-1011,sensitivity,7.411680053121867,13.922651933701658
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4111,sensitivity,8.790978721065308,61.988950276243095
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",17-3026,sensitivity,7.1862004608327394,8.950276243093922
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",53-7062,negative_control,9.329450100418121,77.12707182320442
+A,D (registered),__spearman_vs_D_core__,summary,1.0,
+A,weighted Euclidean (non-directional),__spearman_vs_D_core__,summary,0.9930069930069931,
+A,"Mahalanobis, Ledoit-Wolf (non-directional)",__spearman_vs_D_core__,summary,0.02097902097902098,
+K,D (registered),51-2090,feeder_core,0.10222057321833707,9.392265193370166
+K,D (registered),51-4031,feeder_core,0.9916433702594553,96.57458563535911
+K,D (registered),51-2031,feeder_core,0.2294913729415386,24.19889502762431
+K,D (registered),51-9061,feeder_core,0.21649939071662064,22.5414364640884
+K,D (registered),51-4121,feeder_core,0.5329269047957221,55.58011049723757
+K,D (registered),51-4081,feeder_core,0.27000409472976294,28.176795580110497
+K,D (registered),51-4041,feeder_core,0.4730990847329237,48.39779005524862
+K,D (registered),51-2028,feeder_core,0.711634481774004,76.90607734806629
+K,D (registered),51-9161,feeder_core,0.16737746919078977,16.243093922651934
+K,D (registered),51-4072,feeder_core,0.5476669370877704,58.011049723756905
+K,D (registered),51-4122,feeder_core,0.37473456394479054,38.56353591160221
+K,D (registered),51-9124,feeder_core,1.0620740654540088,98.12154696132596
+K,D (registered),51-1011,sensitivity,0.159741867775292,15.248618784530388
+K,D (registered),51-4111,sensitivity,0.32860079232150885,34.47513812154696
+K,D (registered),17-3026,sensitivity,0.048963383741989684,3.535911602209945
+K,D (registered),53-7062,negative_control,0.6293103792557269,67.62430939226519
+K,weighted Euclidean (non-directional),51-2090,feeder_core,0.5495276641080235,1.8784530386740332
+K,weighted Euclidean (non-directional),51-4031,feeder_core,1.084550061978481,30.82872928176796
+K,weighted Euclidean (non-directional),51-2031,feeder_core,0.5291943101793932,0.9944751381215469
+K,weighted Euclidean (non-directional),51-9061,feeder_core,0.5831010201947566,2.983425414364641
+K,weighted Euclidean (non-directional),51-4121,feeder_core,0.6497057129176669,6.519337016574586
+K,weighted Euclidean (non-directional),51-4081,feeder_core,0.5446438532148903,1.6574585635359116
+K,weighted Euclidean (non-directional),51-4041,feeder_core,0.6819904816776119,8.61878453038674
+K,weighted Euclidean (non-directional),51-2028,feeder_core,0.8332437378450552,16.574585635359114
+K,weighted Euclidean (non-directional),51-9161,feeder_core,0.6261810109086285,5.082872928176796
+K,weighted Euclidean (non-directional),51-4072,feeder_core,0.7465345356705403,12.596685082872927
+K,weighted Euclidean (non-directional),51-4122,feeder_core,0.7900265499582981,14.14364640883978
+K,weighted Euclidean (non-directional),51-9124,feeder_core,1.169306708609686,37.127071823204425
+K,weighted Euclidean (non-directional),51-1011,sensitivity,0.8964870262606596,20.22099447513812
+K,weighted Euclidean (non-directional),51-4111,sensitivity,0.624981274538537,4.861878453038674
+K,weighted Euclidean (non-directional),17-3026,sensitivity,1.0244953206715963,26.850828729281766
+K,weighted Euclidean (non-directional),53-7062,negative_control,1.0385120238621712,28.066298342541433
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-2090,feeder_core,3.5334772899005946,0.5524861878453038
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4031,feeder_core,4.88056935666288,11.160220994475138
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-2031,feeder_core,4.4497195275909665,5.966850828729282
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-9061,feeder_core,4.566218075719155,7.18232044198895
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4121,feeder_core,3.7498561748258563,1.2154696132596685
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4081,feeder_core,4.477721764025886,6.077348066298343
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4041,feeder_core,4.828764597306841,10.386740331491714
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-2028,feeder_core,3.8999188342925963,1.8784530386740332
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-9161,feeder_core,4.125158426643243,3.867403314917127
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4072,feeder_core,4.285828016416607,5.082872928176796
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4122,feeder_core,6.544740282359102,62.32044198895028
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-9124,feeder_core,4.687213242710589,8.61878453038674
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-1011,sensitivity,5.188330930747261,18.563535911602212
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4111,sensitivity,5.326867740048244,21.325966850828728
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",17-3026,sensitivity,5.007355955363471,14.14364640883978
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",53-7062,negative_control,6.033719509888954,43.97790055248619
+K,D (registered),__spearman_vs_D_core__,summary,1.0,
+K,weighted Euclidean (non-directional),__spearman_vs_D_core__,summary,0.8391608391608393,
+K,"Mahalanobis, Ledoit-Wolf (non-directional)",__spearman_vs_D_core__,summary,0.32867132867132864,
+S,D (registered),51-2090,feeder_core,0.7221636086946456,35.13812154696133
+S,D (registered),51-4031,feeder_core,0.7465804628930768,37.4585635359116
+S,D (registered),51-2031,feeder_core,0.666347754493839,29.2817679558011
+S,D (registered),51-9061,feeder_core,0.7084601496439064,33.70165745856354
+S,D (registered),51-4121,feeder_core,1.2012664385066796,88.7292817679558
+S,D (registered),51-4081,feeder_core,0.32753559312868014,8.066298342541437
+S,D (registered),51-4041,feeder_core,0.3509216979870706,9.060773480662982
+S,D (registered),51-2028,feeder_core,0.8851873922451213,53.812154696132595
+S,D (registered),51-9161,feeder_core,0.28503408558055776,5.966850828729282
+S,D (registered),51-4072,feeder_core,0.7946639370828148,43.646408839779006
+S,D (registered),51-4122,feeder_core,0.8029166472331544,44.86187845303867
+S,D (registered),51-9124,feeder_core,0.7943470357523031,43.53591160220994
+S,D (registered),51-1011,sensitivity,0.39909476351625933,11.602209944751381
+S,D (registered),51-4111,sensitivity,0.5052693132443912,17.569060773480665
+S,D (registered),17-3026,sensitivity,0.44574318519351847,13.812154696132598
+S,D (registered),53-7062,negative_control,1.369847257026988,94.58563535911603
+S,weighted Euclidean (non-directional),51-2090,feeder_core,1.0827159611415207,21.215469613259668
+S,weighted Euclidean (non-directional),51-4031,feeder_core,0.9772900722419714,16.243093922651934
+S,weighted Euclidean (non-directional),51-2031,feeder_core,0.8135039514590521,9.613259668508286
+S,weighted Euclidean (non-directional),51-9061,feeder_core,1.1122396729645572,22.320441988950275
+S,weighted Euclidean (non-directional),51-4121,feeder_core,1.3390964187034144,32.81767955801105
+S,weighted Euclidean (non-directional),51-4081,feeder_core,0.49460424533594083,2.983425414364641
+S,weighted Euclidean (non-directional),51-4041,feeder_core,0.47564848814151395,2.3204419889502765
+S,weighted Euclidean (non-directional),51-2028,feeder_core,1.0076157635646559,17.790055248618785
+S,weighted Euclidean (non-directional),51-9161,feeder_core,0.5594800237339075,4.861878453038674
+S,weighted Euclidean (non-directional),51-4072,feeder_core,1.00117653128155,17.34806629834254
+S,weighted Euclidean (non-directional),51-4122,feeder_core,1.0495892544189718,20.11049723756906
+S,weighted Euclidean (non-directional),51-9124,feeder_core,1.014239982707431,18.563535911602212
+S,weighted Euclidean (non-directional),51-1011,sensitivity,1.2823771620772517,29.613259668508285
+S,weighted Euclidean (non-directional),51-4111,sensitivity,0.823551292589798,9.94475138121547
+S,weighted Euclidean (non-directional),17-3026,sensitivity,1.3146825000158209,31.60220994475138
+S,weighted Euclidean (non-directional),53-7062,negative_control,1.5227608561511534,43.53591160220994
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-2090,feeder_core,7.208779813493733,47.95580110497237
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4031,feeder_core,6.474552993392882,18.784530386740332
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-2031,feeder_core,5.814572421109551,7.734806629834254
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-9061,feeder_core,5.989380313808276,9.171270718232044
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4121,feeder_core,8.244705998791487,85.30386740331491
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4081,feeder_core,4.766356321771188,1.5469613259668509
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4041,feeder_core,4.206364087176245,0.9944751381215469
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-2028,feeder_core,4.557707500336202,1.1049723756906076
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-9161,feeder_core,6.007979721550882,9.613259668508286
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4072,feeder_core,7.847384570504674,75.13812154696133
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4122,feeder_core,7.349074701678535,54.585635359116026
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-9124,feeder_core,7.101796246017209,42.98342541436464
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-1011,sensitivity,6.9102415871828,35.690607734806626
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",51-4111,sensitivity,7.194386817325463,47.40331491712707
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",17-3026,sensitivity,8.643525661785494,91.71270718232044
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",53-7062,negative_control,6.902044916267019,35.027624309392266
+S,D (registered),__spearman_vs_D_core__,summary,1.0,
+S,weighted Euclidean (non-directional),__spearman_vs_D_core__,summary,0.6853146853146854,
+S,"Mahalanobis, Ledoit-Wolf (non-directional)",__spearman_vs_D_core__,summary,0.5664335664335665,

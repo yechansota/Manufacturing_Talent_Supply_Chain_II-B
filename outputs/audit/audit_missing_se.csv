@@ -1,0 +1,3 @@
+soc6,role,onet_code,mapping_type,domain,se_missing_rate,domain_sources,n_median,primary_handling,sensitivity_handling
+49-9044,target_core,49-9044.00,primary,K,1.0,Occupational Expert,22.0,impute_median_se_incumbent_by_element_scale,drop_frame_codes_without_se_from_domain
+17-3024,target_sensitivity,17-3024.01,sensitivity,K,1.0,Occupational Expert,22.0,impute_median_se_incumbent_by_element_scale,drop_frame_codes_without_se_from_domain

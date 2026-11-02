@@ -1,0 +1,11 @@
+domain,soc6,onet_codes,has_profile,D,P,title,emp_3363,emp_rse,h_median_3363,ep_change_pct,ep_transfer_rate_pct,ojt_bls,in_registered_frame,emp_withheld,small_or_imprecise,rank
+K,51-8031,51-8031.00,True,0.026037781628279674,1.6574585635359116,Water and Wastewater Treatment Plant and System Operators,100.0,13.8,24.54,-5.7,5.5,Long-term on-the-job training,False,False,True,1.0
+K,51-4192,51-4192.00,True,0.08521551554074583,7.513812154696133,"Layout Workers, Metal and Plastic",90.0,19.4,28.72,-3.4,5.6,Moderate-term on-the-job training,False,False,True,2.0
+K,51-2090,51-2092.00,True,0.1022205732183371,9.392265193370166,Miscellaneous Assemblers and Fabricators,129460.0,0.9,20.97,1.1,6.0,Moderate-term on-the-job training,True,False,False,3.0
+K,51-8021,51-8021.00,True,0.10742371082925772,10.05524861878453,Stationary Engineers and Boiler Operators,130.0,2.5,44.64,3.1,6.2,Long-term on-the-job training,False,False,True,4.0
+K,51-9032,51-9032.00,True,0.11055877689175095,10.497237569060774,"Cutting and Slicing Machine Setters, Operators, and Tenders",190.0,23.0,19.31,-0.9,6.3,Moderate-term on-the-job training,False,False,True,5.0
+K,51-4034,51-4034.00,True,0.1136415056356282,10.718232044198896,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",400.0,17.6,23.65,-11.3,6.3,Moderate-term on-the-job training,False,False,True,6.0
+K,51-4071,51-4071.00,True,0.12142740322996336,11.2707182320442,Foundry Mold and Coremakers,460.0,4.3,21.57,-23.0,6.6,Moderate-term on-the-job training,False,False,True,7.0
+K,51-2021,51-2021.00,True,0.12886345373776925,12.154696132596685,"Coil Winders, Tapers, and Finishers",160.0,20.7,22.38,-4.0,5.5,Moderate-term on-the-job training,False,False,True,8.0
+K,51-4032,51-4032.00,True,0.12924993028980664,12.265193370165745,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",390.0,7.5,21.67,-9.5,6.3,Moderate-term on-the-job training,False,False,True,9.0
+K,51-4035,51-4035.00,True,0.14978668543636892,14.585635359116022,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",510.0,43.3,14.35,-13.2,6.3,Moderate-term on-the-job training,False,False,True,10.0

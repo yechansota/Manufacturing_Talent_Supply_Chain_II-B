@@ -1,0 +1,4 @@
+domain,feeder,D,P,min_percentile,decision
+A,53-7062,0.7326586874108543,40.66298342541437,50,FAIL — measure failure; H1 not interpreted
+K,53-7062,0.6293103792557269,67.62430939226519,50,PASS — H1 interpretable
+S,53-7062,1.369847257026988,94.58563535911603,50,PASS — H1 interpretable

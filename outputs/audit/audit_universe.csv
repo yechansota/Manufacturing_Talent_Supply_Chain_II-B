@@ -1,0 +1,4 @@
+domain,occupations,elements,rows,occupations_with_missing_se,expected_elements
+A,910,52,94640,0,52
+K,910,33,60060,257,33
+S,910,35,63700,0,35

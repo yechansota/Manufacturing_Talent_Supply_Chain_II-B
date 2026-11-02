@@ -1,0 +1,9 @@
+quantity,value,note
+Maintenance family employment in 3363,27330.0,OEWS May 2025
+"Close-feeder pool in 3363 (S, H1 met)",32370.0,51-4081; 51-4041; 51-9161
+Pool / family employment,1.1844127332601537,ratio
+All core-feeder employment in 3363,273210.0,12 feeders
+"Illustrative annual separations, family (3363)",2145.57,3363 employment x EP all-industry separation rate (assumes equal rates)
+  of which labor-force exits,980.76,same assumption
+Annual separations / close-feeder pool,0.06628266913809083,share of the close pool that would have to move each year if it were the only source
+Illustrative annual occupational transfers out of the close pool,1840.0,3363 employment x EP all-industry occupational transfer rate (Table 1.10); destination unknown (DL-25)

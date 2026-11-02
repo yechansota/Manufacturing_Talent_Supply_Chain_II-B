@@ -1,0 +1,4 @@
+domain,codes_in_scope,rows_in_scope,rows_flag_known,rows_flag_missing,suppress_Y,suppress_rate,max_rate,decision
+A,19,1976,1976,0,1,0.0005060728744939271,0.2,PASS
+K,19,1254,1188,66,189,0.1590909090909091,0.2,PASS
+S,19,1330,1330,0,1,0.0007518796992481203,0.2,PASS

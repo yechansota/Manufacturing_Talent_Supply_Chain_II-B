@@ -1,0 +1,11 @@
+domain,soc6,onet_codes,has_profile,D,P,title,emp_3363,emp_rse,h_median_3363,ep_change_pct,ep_transfer_rate_pct,ojt_bls,in_registered_frame,emp_withheld,small_or_imprecise,rank
+S,51-8021,51-8021.00,True,0.27358944082588627,5.524861878453039,Stationary Engineers and Boiler Operators,130.0,2.5,44.64,3.1,6.2,Long-term on-the-job training,False,False,True,1.0
+S,51-9161,51-9161.00,True,0.2850340855805577,5.966850828729282,Computer Numerically Controlled Tool Operators,9200.0,4.1,22.91,-9.4,6.1,Moderate-term on-the-job training,True,False,False,2.0
+S,51-4081,51-4081.00,True,0.32753559312868014,8.066298342541437,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",13810.0,3.0,23.05,0.6,5.6,Moderate-term on-the-job training,True,False,False,3.0
+S,51-4023,51-4023.00,True,0.3473759851676474,8.83977900552486,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",270.0,7.5,22.64,-8.3,5.3,Moderate-term on-the-job training,False,False,True,4.0
+S,51-4041,51-4041.00,True,0.3509216979870706,9.060773480662982,Machinists,9360.0,3.1,26.09,1.0,5.4,Long-term on-the-job training,True,False,False,5.0
+S,51-9162,51-9162.00,True,0.36300590453177967,9.281767955801106,Computer Numerically Controlled Tool Programmers,1260.0,10.5,27.66,5.9,6.1,Moderate-term on-the-job training,False,False,True,6.0
+S,51-8031,51-8031.00,True,0.37258246093859704,9.94475138121547,Water and Wastewater Treatment Plant and System Operators,100.0,13.8,24.54,-5.7,5.5,Long-term on-the-job training,False,False,True,7.0
+S,51-1011,51-1011.00,True,0.39909476351625933,11.602209944751381,First-Line Supervisors of Production and Operating Workers,22500.0,0.8,33.72,1.8,5.6,None,True,False,False,8.0
+S,51-5112,51-5112.00,True,0.41866072662544707,12.375690607734807,Printing Press Operators,140.0,41.0,20.26,-8.7,5.8,Moderate-term on-the-job training,False,False,True,9.0
+S,51-9021,51-9021.00,True,0.45012180993157325,14.033149171270717,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",460.0,2.3,19.07,-1.7,5.6,Moderate-term on-the-job training,False,False,True,10.0

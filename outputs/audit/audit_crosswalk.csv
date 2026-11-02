@@ -1,0 +1,26 @@
+soc6,role,onet_code,mapping_type,aggregation,title,found_any_domain,candidate_codes_with_soc6_prefix,has_A,has_K,has_S
+49-9041,target_core,49-9041.00,primary,single,Industrial Machinery Mechanics,True,49-9041.00,True,True,True
+49-9071,target_core,49-9071.00,primary,single,"Maintenance and Repair Workers, General",True,49-9071.00,True,True,True
+47-2111,target_core,47-2111.00,primary,single,Electricians,True,47-2111.00,True,True,True
+49-9043,target_core,49-9043.00,primary,single,"Maintenance Workers, Machinery",True,49-9043.00,True,True,True
+49-9044,target_core,49-9044.00,primary,single,Millwrights,True,49-9044.00,True,True,True
+49-2094,target_sensitivity,49-2094.00,primary,single,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",True,49-2094.00,True,True,True
+17-3024,target_sensitivity,17-3024.00,primary,single,Electro-Mechanical and Mechatronics Technologists and Technicians,True,17-3024.00;17-3024.01,True,True,True
+17-3024,target_sensitivity,17-3024.01,sensitivity,single,Robotics Technicians,True,17-3024.00;17-3024.01,True,True,True
+51-2090,feeder_core,51-2092.00,primary,single,Team Assemblers,True,,True,True,True
+51-4031,feeder_core,51-4031.00,primary,single,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",True,51-4031.00,True,True,True
+51-2031,feeder_core,51-2031.00,primary,single,Engine and Other Machine Assemblers,True,51-2031.00,True,True,True
+51-9061,feeder_core,51-9061.00,primary,single,"Inspectors, Testers, Sorters, Samplers, and Weighers",True,51-9061.00,True,True,True
+51-4121,feeder_core,51-4121.00,primary,single,"Welders, Cutters, Solderers, and Brazers",True,51-4121.00,True,True,True
+51-4081,feeder_core,51-4081.00,primary,single,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",True,51-4081.00,True,True,True
+51-4041,feeder_core,51-4041.00,primary,single,Machinists,True,51-4041.00,True,True,True
+51-2028,feeder_core,51-2022.00,primary,equal_weight_profile_mean,Electrical and Electronic Equipment Assemblers,True,,True,True,True
+51-2028,feeder_core,51-2023.00,primary,equal_weight_profile_mean,Electromechanical Equipment Assemblers,True,,True,True,True
+51-9161,feeder_core,51-9161.00,primary,single,Computer Numerically Controlled Tool Operators,True,51-9161.00,True,True,True
+51-4072,feeder_core,51-4072.00,primary,single,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",True,51-4072.00,True,True,True
+51-4122,feeder_core,51-4122.00,primary,single,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",True,51-4122.00,True,True,True
+51-9124,feeder_core,51-9124.00,primary,single,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",True,51-9124.00,True,True,True
+51-1011,sensitivity,51-1011.00,primary,single,First-Line Supervisors of Production and Operating Workers,True,51-1011.00,True,True,True
+51-4111,sensitivity,51-4111.00,primary,single,Tool and Die Makers,True,51-4111.00,True,True,True
+17-3026,sensitivity,17-3026.00,primary,single,Industrial Engineering Technologists and Technicians,True,17-3026.00;17-3026.01,True,True,True
+53-7062,negative_control,53-7062.00,primary,single,"Laborers and Freight, Stock, and Material Movers, Hand",True,53-7062.00;53-7062.04,True,True,True

@@ -1,0 +1,11 @@
+domain,soc6,onet_codes,has_profile,D,P,title,emp_3363,emp_rse,h_median_3363,ep_change_pct,ep_transfer_rate_pct,ojt_bls,in_registered_frame,emp_withheld,small_or_imprecise,rank
+A,51-9161,51-9161.00,True,0.16802775853580082,1.8784530386740332,Computer Numerically Controlled Tool Operators,9200.0,4.1,22.91,-9.4,6.1,Moderate-term on-the-job training,True,False,False,1.0
+A,51-4041,51-4041.00,True,0.30181752730542694,6.519337016574586,Machinists,9360.0,3.1,26.09,1.0,5.4,Long-term on-the-job training,True,False,False,2.0
+A,51-9021,51-9021.00,True,0.3416798348852981,8.508287292817679,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",460.0,2.3,19.07,-1.7,5.6,Moderate-term on-the-job training,False,False,True,3.0
+A,51-4023,51-4023.00,True,0.3425143014706185,8.61878453038674,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",270.0,7.5,22.64,-8.3,5.3,Moderate-term on-the-job training,False,False,True,4.0
+A,51-6093,51-6093.00,True,0.3584619029669066,9.281767955801106,Upholsterers,510.0,17.9,18.62,-2.3,3.7,Moderate-term on-the-job training,False,False,True,5.0
+A,51-4191,51-4191.00,True,0.35986175671764226,9.392265193370166,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",530.0,6.1,23.18,-9.5,5.6,Moderate-term on-the-job training,False,False,True,6.0
+A,51-4081,51-4081.00,True,0.36977143030142523,10.165745856353592,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",13810.0,3.0,23.05,0.6,5.6,Moderate-term on-the-job training,True,False,False,7.0
+A,51-8021,51-8021.00,True,0.3708721292286249,10.276243093922652,Stationary Engineers and Boiler Operators,130.0,2.5,44.64,3.1,6.2,Long-term on-the-job training,False,False,True,8.0
+A,51-4061,51-4061.00,True,0.38531502059937656,11.38121546961326,"Model Makers, Metal and Plastic",80.0,9.6,26.95,-17.3,6.6,Moderate-term on-the-job training,False,False,True,9.0
+A,51-2051,51-2051.00,True,0.3898778370822298,11.823204419889503,Fiberglass Laminators and Fabricators,70.0,24.2,21.6,4.6,6.0,Moderate-term on-the-job training,False,False,True,10.0
