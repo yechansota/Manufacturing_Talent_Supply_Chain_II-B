@@ -1,0 +1,27 @@
+
+==============================================================================
+  II-B FROM THE PRODUCTION LINE TO MAINTENANCE — FULL PIPELINE
+==============================================================================
+Started (UTC): 2026-11-01T23:42:10+00:00
+Industry: NAICS 336300 Motor Vehicle Parts Manufacturing (national)
+Inputs: O*NET 31.0 · OEWS May 2025 · BLS Employment Projections 2025–35
+
+==============================================================================
+  DATA CHECK — files present, SHA-256 manifest
+==============================================================================
+  [MISSING] data/raw/onet/knowledge.csv
+  [MISSING] data/raw/onet/abilities.csv
+  [MISSING] data/raw/onet/essential_skills.csv
+  [MISSING] data/raw/onet/transferable_skills.csv
+  [MISSING] data/raw/oews/oesm25in4.zip
+  [MISSING] data/raw/ep/occupation.xlsx
+  [MISSING] data/raw/ep/education.xlsx
+  [MISSING] data/raw/ep/nem-onet-to-soc-crosswalk.xlsx
+
+Manifest written: data/raw/MANIFEST.csv (0 files)
+RESULT: SOME FILES MISSING — see above
+-> exit 1 (0.0 s)
+
+==============================================================================
+  PIPELINE STOPPED — see the failing step above
+==============================================================================
