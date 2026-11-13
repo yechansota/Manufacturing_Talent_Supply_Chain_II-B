@@ -1,1 +1,17 @@
-
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "Manufacturing Talent Supply Chain II-B: From the Production Line to Maintenance"
+abstract: "A pre-specified test of skill distance from production to equipment maintenance occupations in U.S. motor vehicle parts manufacturing (NAICS 3363), with observed worker moves, using only federal public data (O*NET 31.0, OEWS May 2025, BLS Employment Projections, CPS)."
+authors:
+  - family-names: Kim
+    given-names: Yechan
+    alias: Sean Kim
+repository-code: "https://github.com/yechansota/Manufacturing_Talent_Supply_Chain_II-B"
+license: MIT
+keywords:
+  - workforce analytics
+  - skill distance
+  - equipment maintenance
+  - manufacturing
+  - O*NET
