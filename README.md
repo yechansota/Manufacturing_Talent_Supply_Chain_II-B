@@ -1,9 +1,9 @@
 # Manufacturing Talent Supply Chain II-B
-## From the Production Line to Maintenance — A Pre-registered Test of Skill Distance from Production to Equipment Maintenance (U.S. motor vehicle parts manufacturing, NAICS 3363)
+## From the Production Line to Maintenance — A Pre-specified Test of Skill Distance from Production to Equipment Maintenance (U.S. motor vehicle parts manufacturing, NAICS 3363)
 
 <p align="center">
   <strong>In auto parts manufacturing, how close are production jobs to equipment maintenance, do workers actually move, and what does the move take?</strong><br>
-  <em>O*NET 31.0 · OEWS May 2025 · BLS Employment Projections 2025–35 · CPS 2020–2026 · 29 CFR 1910 · pre-registered · bootstrap · 96-specification multiverse</em>
+  <em>O*NET 31.0 · OEWS May 2025 · BLS Employment Projections 2025–35 · CPS 2020–2026 · 29 CFR 1910 · pre-specified · bootstrap · 96-specification multiverse</em>
 </p>
 
 ---
@@ -12,11 +12,14 @@
 
 This project began with the manufacturing workforce-ageing case of the 2023 Purdue HR Case Competition and continues the
 earlier repository [*Manufacturing Talent Supply Chain at Risk (2010–2024)*](https://github.com/yechansota/Mfg_Talent_Supply_Chain.2010-2024.).
-[II-A]([https://github.com/yechansota/Mfg_Talent_Supply_Chain_II.Floor_Succession](https://github.com/yechansota/Manufacturing_Talent_Supply_Chain_II-A)) covers the changing floor job mix,
+[II-A](https://github.com/yechansota/Manufacturing_Talent_Supply_Chain_II-A) covers the changing floor job mix,
 ageing and worker flows, and a succession map for every floor job. This repository, II-B, tests in depth the one move
-those results point to, production → equipment maintenance, with a pre-registered design. The frame, estimands and
-decision rules were frozen before estimation (`config/prereg.yaml`, 2026-10-18, registered as *From the Line to
-Maintenance*).
+those results point to, production → equipment maintenance, with a pre-specified design. The frame, estimands and
+decision rules were written and frozen by SHA-256 before estimation (`config/prereg.yaml`, 2026-10-18, under the working
+title *From the Line to Maintenance*; `outputs/freeze_record.md`). The freeze date is the author's own record: the plan was
+not posted publicly before estimation, and this repository was first published on 2026-11-01 together with the results,
+so the date cannot be verified from the public history. Throughout this document, "pre-specified" means specified in
+advance by the author, not a time-stamped public preregistration.
 
 ### Why production → equipment maintenance
 
@@ -41,7 +44,7 @@ start**.
   "distance between combinations" with O*NET.
 
 So this repository asks two questions with the same occupation definitions: is the move from production to maintenance a
-*short* one in terms of skill bundles (pre-registered H1, H2), and does it actually happen (observed CPS moves)?
+*short* one in terms of skill bundles (pre-specified H1, H2), and does it actually happen (observed CPS moves)?
 
 > **Problem statement.** The earlier repository concluded that a lack of binding mentoring cannot be shown with the
 > industry-level data it used and that occupation-level (SOC) data are needed. Shortages are defined and measured by
@@ -56,12 +59,12 @@ recomputes every reported number by a separate code path. Data and reproduction 
 | # | Question | Short answer | Section |
 |---|---|---|---|
 | 1 | Which production jobs are closest to maintenance? | Machining and setup jobs: CNC tool operators, multiple machine tool setters and machinists, within the closest 13% of 905 occupations on Skills | 3.1 |
-| 2 | Do production workers actually move into maintenance? What share of new maintenance workers come from production? | Yes. 31.5% (registered primary 22.0%) of those newly entering maintenance jobs in manufacturing were in production the month before, and 42.9% (28.8%) of those who moved within the same employer. Whether proximity predicts moves better is not established | 3.2 |
+| 2 | Do production workers actually move into maintenance? What share of new maintenance workers come from production? | Yes. 31.5% (pre-specified primary 22.0%) of those newly entering maintenance jobs in manufacturing were in production the month before, and 42.9% (28.8%) of those who moved within the same employer. Whether proximity predicts moves better is not established | 3.2 |
 | 3 | Is the close pool large enough, and is it shrinking? | It is about the size of the maintenance family (32,370 vs 27,330 jobs) but shrank 23% in May 2021–2025 | 3.3 |
-| 4 | What exactly is missing? | Installation, repairing, equipment maintenance and troubleshooting lead, but the gap is broad rather than a few modules (pre-registered H2 not supported) | 3.4 |
+| 4 | What exactly is missing? | Installation, repairing, equipment maintenance and troubleshooting lead, but the gap is broad rather than a few modules (pre-specified H2 not supported) | 3.4 |
 | 5 | What does the move take? | Time (40.6% of maintenance incumbents report more than a year of on-the-job training), a change of legal status (OSHA *affected* → *authorized* employee), and pay (a raise at the median, but a shrinking one) | 3.5 |
 
-Each result is tagged with the kind of evidence behind it. **[Registered]** hypotheses frozen before estimation ·
+Each result is tagged with the kind of evidence behind it. **[Pre-specified]** hypotheses in the analysis plan frozen before estimation (author's record; see above) ·
 **[Logged before]** exploratory analyses whose definitions were written in the deviation log before computing ·
 **[Post hoc]** added or changed after seeing results (recorded as such in the log).
 
@@ -69,18 +72,18 @@ Each result is tagged with the kind of evidence behind it. **[Registered]** hypo
 
 ## 2. Key findings
 
-1. **[Registered] The closest production jobs are the machining and setup jobs** (Figures 1, 7). On Skills, CNC tool
+1. **[Pre-specified] The closest production jobs are the machining and setup jobs** (Figures 1, 7). On Skills, CNC tool
    operators, multiple machine tool setters and machinists stay within the closest 13% of 905 occupations even at the
    bootstrap upper bound (8.6, 10.2, 12.7), in **all** 96 specifications and under every error model tested (machinists
    drop out only when every rating error is assumed perfectly correlated). Welders and cutters are the farthest (P = 88.7).
 2. **[Logged before] Production is the largest origin of new maintenance workers** (Figure 2). In linked CPS months
-   (January 2020 – September 2026, manufacturing as a whole), 31.5% (26.0–37.6; registered primary 22.0%) of those newly
+   (January 2020 – September 2026, manufacturing as a whole), 31.5% (26.0–37.6; pre-specified primary 22.0%) of those newly
    entering maintenance jobs in manufacturing were in production the month before. It is the largest of the named origin
    groups, followed by other installation and repair jobs (16.9%). Among those who moved within the same employer the share
    is 42.9% (28.8%). Seen from production, about 14.5 per 10,000 workers move into maintenance each month, of whom 4.9 move
    within the same employer (about 0.6% a year). Whether machinists, the closest, move more often than other production
    workers is not established because the sample is small (1.48 times, 95% interval 0.48–2.92).
-3. **[Registered] The remaining gap is broad, not a few modules** (Figures 4, 5). Pre-registered H2 is **not supported**.
+3. **[Pre-specified] The remaining gap is broad, not a few modules** (Figures 4, 5). Pre-specified H2 is **not supported**.
    The feeders' deficits are *less* concentrated than those of occupations with the same total deficit (0 of 12 above the
    threshold on Skills and Knowledge, 1 on Abilities; 0 of 96 specifications in every domain). Even for CNC tool operators,
    the closest, 80% of the Skills deficit is spread over 6–10 elements (95% interval).
@@ -121,16 +124,16 @@ Each result is tagged with the kind of evidence behind it. **[Registered]** hypo
 > **How to read.** The *directional deficit $D$* adds up, element by element, how far an occupation *falls short* of the
 > maintenance family, weighted by each element's importance in maintenance work (surplus skill does not offset). The
 > *proximity percentile $P$* is the share of the 905 non-target occupations that fall short by no more than this
-> occupation; **lower = closer**. Pre-registered H1 calls a feeder "close" when the bootstrap 97.5th percentile of $P$ is at
+> occupation; **lower = closer**. Pre-specified H1 calls a feeder "close" when the bootstrap 97.5th percentile of $P$ is at
 > most 25. Definitions and formulas are in section 5.
 
-#### 3.1 Which production jobs are closest to maintenance? [Registered]
+#### 3.1 Which production jobs are closest to maintenance? [Pre-specified]
 
 <img src="figures/fig1_h1_proximity_skills.png" alt="Proximity percentile of production feeders to the maintenance family, Skills, with bootstrap intervals" width="100%">
 
-*How to read:* each row is a registered production feeder. The dot is its proximity percentile P to the maintenance family on Skills (lower = closer) and the bar its 95% bootstrap interval. The dashed line at 25 is the pre-registered H1 threshold: a feeder is "close" only when the whole bar ends left of it (blue). The open circle is the negative control (hand laborers), which should sit far right.
+*How to read:* each row is a pre-specified production feeder. The dot is its proximity percentile P to the maintenance family on Skills (lower = closer) and the bar its 95% bootstrap interval. The dashed line at 25 is the pre-specified H1 threshold: a feeder is "close" only when the whole bar ends left of it (blue). The open circle is the negative control (hand laborers), which should sit far right.
 
-**Registered feeders (H1).**
+**Pre-specified feeders (H1).**
 | SOC | Feeder | Jobs in 3363 | Skills P [95% CI] | Specifications with P ≤ 25 | Knowledge P [upper] | Top three skill gaps |
 |---|---|---|---|---|---|---|
 | 51-9161 | CNC tool operators | 9,200 | **6.0 [4.0, 8.6]** | 100% | 16.2 [25.7] | installation, troubleshooting, repairing |
@@ -144,7 +147,7 @@ Each result is tagged with the kind of evidence behind it. **[Registered]** hypo
 All 12 feeders: `outputs/layers/decision_table.csv`. On Knowledge, "close" means "falls short less", not "similar" (4.2).
 Abilities are not interpreted because the negative control failed (3.6).
 
-**Top 10 of all production occupations employed in 3363 (Skills, point estimates; DL-12).** Not only the registered frame
+**Top 10 of all production occupations employed in 3363 (Skills, point estimates; DL-12).** Not only the pre-specified frame
 but every SOC-51 detailed occupation with 3363 employment and an O*NET profile (51 of 53) is ranked.
 | Rank | SOC | Occupation | P | Jobs in 3363 | Usable as a pool? |
 |---|---|---|---|---|---|
@@ -167,7 +170,7 @@ pipeline. That is why size matters as much as proximity.
 
 <img src="figures/fig2_cps_moves.png" alt="Linked CPS months: last month's occupation of new maintenance workers in manufacturing, and the rate at which production workers move into maintenance" width="100%">
 
-*How to read:* left — the occupation, one month earlier, of workers who just entered maintenance in manufacturing; the blue row (production in manufacturing) is the largest named origin. Right — how many production workers per 10,000 move into maintenance each month, for any employer and for the same employer. In both panels the filled dot and bar are the headline (no imputed codes) with its 95% interval, and the diamond is the registered all-records estimate; read the two as a range.
+*How to read:* left — the occupation, one month earlier, of workers who just entered maintenance in manufacturing; the blue row (production in manufacturing) is the largest named origin. Right — how many production workers per 10,000 move into maintenance each month, for any employer and for the same employer. In both panels the filled dot and bar are the headline (no imputed codes) with its 95% interval, and the diamond is the pre-specified all-records estimate; read the two as a range.
 
 **How it was measured.** The CPS (Current Population Survey) interviews a household in consecutive months, so the
 occupation of a person's main job can be compared across two consecutive months. A respondent who reports the same
@@ -178,7 +181,7 @@ employer (PUIODP1). From 80 months of microdata, January 2020 (start of the 2018
 and person keys of the Census linking guide and consistency checks on month in sample, sex and age (link rate 83.7–86.2% by
 year). The design and checks were recorded before the data were obtained (DL-37, DL-40).
 
-- Maintenance jobs: 2018 Census occupation codes 6355, 7330, 7340, 7350, 7360 (the five registered targets; 7330 also
+- Maintenance jobs: 2018 Census occupation codes 6355, 7330, 7340, 7350, 7360 (the five pre-specified targets; 7330 also
   contains refractory materials repairers, 49-9045).
 - Production: codes whose SOC begins with 51. Of the closest feeders only machinists (8030) have their own code. CNC tool
   operators share a code with CNC tool programmers (7905), and multiple machine tool setters share one with other metal
@@ -188,7 +191,7 @@ year). The design and checks were recorded before the data were obtained (DL-37,
 - Intervals: household bootstrap, B = 1,000 (approximate, because the public files carry no design variables). Reporting
   standard: NCHS data presentation standards for proportions (n ≥ 30, at least one event, interval-width rules).
 - **Headline rule [Post hoc, DL-42].** The headline is the estimate without pairs whose occupation or industry code was
-  imputed in either month; the registered primary (all records) is shown beside it. Pairs with an imputed code show a
+  imputed in either month; the pre-specified primary (all records) is shown beside it. Pairs with an imputed code show a
   change of occupation 68.8% of the time, 15 times the rate without (4.6%), and 166 of the 440 maintenance entrants have an
   imputed code (`outputs/cps_moves/allocation_diagnostic.csv`). This decision was made after seeing results and does not
   favour one side (Q2 rises, Q1 and Q3 fall). Imputation arises from non-response, so excluding it is not a neutral choice
@@ -196,7 +199,7 @@ year). The design and checks were recorded before the data were obtained (DL-37,
 
 **Where new maintenance workers come from (DL-43).** Last month's occupation of those newly entering maintenance jobs in
 manufacturing.
-| Last month's occupation | Headline (no imputed codes, n = 274) | Registered primary (n = 440) | Same employer (headline, n = 90) |
+| Last month's occupation | Headline (no imputed codes, n = 274) | Pre-specified primary (n = 440) | Same employer (headline, n = 90) |
 |---|---|---|---|
 | **Production, manufacturing** | **30.1%** (24.3–36.1) | 21.1% | **42.3%** (31.0–54.1) |
 | Production, other industry | 1.5% | 0.9% | 0.5% |
@@ -210,7 +213,7 @@ The two production rows add up (before rounding) to Q2. People entering maintena
 labour force are not in this table's universe (employed in both months).
 
 **Summary.**
-| Measure (manufacturing as a whole) | Headline (no imputed codes) | Registered primary | Events / base (headline) |
+| Measure (manufacturing as a whole) | Headline (no imputed codes) | Pre-specified primary | Events / base (headline) |
 |---|---|---|---|
 | Q2 share of maintenance entrants who were in production the month before | **31.5%** (26.0–37.6) | 22.0% (18.0–26.5) | 88 / 274 |
 | Q2, same employer | **42.9%** (31.6–54.5) | 28.8% (20.8–37.2) | 39 / 90 |
@@ -262,7 +265,7 @@ maintenance.
 
 <img src="figures/fig3_proximity_vs_pool.png" alt="Proximity percentile and employment of every production occupation in NAICS 3363" width="100%">
 
-*How to read:* each dot is a production occupation employed in auto parts. Left–right is proximity to maintenance on Skills (the shaded band at P ≤ 25 is "close"); up–down is the number of jobs in the industry (log scale). Blue dots are the registered core feeders. The ideal source sits top-left — close and large; the closest feeders are mid-sized, and the largest pool (team assemblers) sits in the middle of the distance axis. Open circles are too small or imprecise to carry a pipeline.
+*How to read:* each dot is a production occupation employed in auto parts. Left–right is proximity to maintenance on Skills (the shaded band at P ≤ 25 is "close"); up–down is the number of jobs in the industry (log scale). Blue dots are the pre-specified core feeders. The ideal source sits top-left — close and large; the closest feeders are mid-sized, and the largest pool (team assemblers) sits in the middle of the distance axis. Open circles are too small or imprecise to carry a pipeline.
 
 | Quantity (NAICS 3363, national) | Value | Basis |
 |---|---|---|
@@ -293,7 +296,7 @@ conventional to CNC machining that BLS also expects. Over the same period indust
 years use the same estimation method, but BLS does not encourage comparing OEWS estimates over time, so these are observed
 differences, not trends. Counting from May 2022 the pool fell 18.0% (DL-32).
 
-#### 3.4 What exactly is missing? [Registered]
+#### 3.4 What exactly is missing? [Pre-specified]
 
 <img src="figures/fig4_skill_gap_heatmap.png" alt="Element-level skill deficit contributions by core feeder" width="100%">
 
@@ -301,7 +304,7 @@ differences, not trends. Counting from May 2022 the pool fell 18.0% (DL-32).
 
 <img src="figures/fig5_h2_concentration_skills.png" alt="Deficit concentration against total deficit, Skills" width="100%">
 
-*How to read:* each grey dot is an O*NET occupation: total deficit D across, and the share of that deficit in its five largest elements (C) up. The line is the registered fit — the concentration expected for a given total deficit. Blue dots are the production feeders. H2 predicted they would sit well above the line (a gap concentrated in a few modules); they sit at or below it, so H2 is not supported.
+*How to read:* each grey dot is an O*NET occupation: total deficit D across, and the share of that deficit in its five largest elements (C) up. The line is the pre-specified fit — the concentration expected for a given total deficit. Blue dots are the production feeders. H2 predicted they would sit well above the line (a gap concentrated in a few modules); they sit at or below it, so H2 is not supported.
 
 | | Skills | Knowledge | Abilities |
 |---|---|---|---|
@@ -397,7 +400,7 @@ from 2022).
 
 <img src="figures/fig7_multiverse.png" alt="Median feeder residual percentile across 96 analysis specifications per domain" width="100%">
 
-*How to read:* each small blue dot is one of the 96 analysis specifications per domain (different standardization, weights, rating filters, thresholds); the open circle is the pre-registered primary. The horizontal position is the median feeder residual percentile: left of the dashed line at 50 means feeder gaps are less concentrated than expected. The text gives how many specifications support H2 — 0 of 96 in every domain.
+*How to read:* each small blue dot is one of the 96 analysis specifications per domain (different standardization, weights, rating filters, thresholds); the open circle is the pre-specified primary. The horizontal position is the median feeder residual percentile: left of the dashed line at 50 means feeder gaps are less concentrated than expected. The text gives how many specifications support H2 — 0 of 96 in every domain.
 
 **Multiverse.** Standardization × weights × low-precision ratings × "not relevant" level × feeder threshold × family
 weights = 96 specifications per domain. H2 is supported in 0 of 96 specifications in every domain. The validity check gives
@@ -405,10 +408,10 @@ the same verdict in all 96. The three machining and setup feeders have P ≤ 25 
 
 <img src="figures/fig8_uncertainty_models.png" alt="Bootstrap intervals of P under four measurement-error models" width="100%">
 
-*How to read:* left Skills, right Knowledge. Each feeder has four bars, one per measurement-error model (blue = registered independent errors; the others assume correlated, fully correlated or redrawn standard errors); the marker is the upper bound used by H1, and the dashed line at 25 is the threshold. CNC tool operators and multiple machine tool setters stay left of the line under every model; the Knowledge result for team assemblers does not.
+*How to read:* left Skills, right Knowledge. Each feeder has four bars, one per measurement-error model (blue = pre-specified independent errors; the others assume correlated, fully correlated or redrawn standard errors); the marker is the upper bound used by H1, and the dashed line at 25 is the threshold. CNC tool operators and multiple machine tool setters stay left of the line under every model; the Knowledge result for team assemblers does not.
 
 **Error models (DL-15, DL-19).** Upper bound of P, B = 1,000 each:
-| Feeder (domain) | Registered: independent errors | Correlated errors (copula) | Perfectly correlated (ρ = 1) | Imputed-SE draws |
+| Feeder (domain) | Pre-specified: independent errors | Correlated errors (copula) | Perfectly correlated (ρ = 1) | Imputed-SE draws |
 |---|---|---|---|---|
 | CNC tool operators (S) | 8.6 | 13.8 | 22.4 | 8.7 |
 | Multiple machine tool setters (S) | 10.2 | 14.9 | 22.4 | 10.2 |
@@ -438,7 +441,7 @@ P = 5.4 / 7.5 / 8.3, and the H2 exceedances are unchanged (S 0, K 0, A 1).
 | Leave one maintenance target out | same three in all 5 | team assemblers first in all 5 |
 | H2 under polynomial fits (degree 1–3) and local 95th percentiles (50/100/200 nearest in D) | 0 of 12 under every form | 0 of 12 under every form |
 
-**Multiple testing (registered setting; DL-32).** Applying the pre-registered FDR q = 0.05 with bootstrap p-values
+**Multiple testing (pre-specified setting; DL-32).** Applying the pre-specified FDR q = 0.05 with bootstrap p-values
 $p = (\#\{P^{*} > 25\} + 1)/(B + 1)$ and Benjamini–Hochberg over the 24 Skills and Knowledge tests, all four "close"
 verdicts hold (each p = 0.001, adjusted 0.006), and the same under Bonferroni.
 
@@ -449,14 +452,14 @@ verdicts hold (each p = 0.001, adjusted 0.006), and the same under Bonferroni.
 **Why the Abilities control failed (DL-17).** Hand laborers have P = 8.5 on physical abilities, 21.3 on psychomotor and 91.4
 on cognitive abilities. The failure comes from shared physical demands.
 
-#### 3.7 Pre-registered hypotheses: results
+#### 3.7 Pre-specified hypotheses: results
 | Hypothesis | Rule (fixed before estimation) | Result |
 |---|---|---|
 | **Validity check** | hand laborers' P ≥ 50 | K (67.6) and S (94.6) **pass**; A (40.7) **fails**, so H1 is not interpreted on Abilities |
 | **H1** proximity | bootstrap 97.5th percentile of P ≤ 25 | **S:** CNC 8.6, multiple machine setters 10.2, machinists 12.7 · **K:** team assemblers 18.5 (CNC 25.7, just outside) · all four hold at BH q = 0.05 |
 | **H1-group** (defined after seeing the feeder estimates — not blind) | mean P of machining + welding < assembly; exact permutation, 120 | **Not supported.** S: −5.4, p = 0.375 · K: +12.0, p = 0.717 |
 | **H2** concentration (primary) | 3 or more of 12 above the reference residual 95th percentile | **Not supported.** 0 / 0 / 1 (S / K / A); 0 of 96 specifications in every domain |
-| *Observed moves (logged before, not registered)* | *machinists' rate ratio > 1 (logged in DL-37 before the data)* | *right direction, interval includes 1 (headline 1.48, 0.48–2.92; registered primary 1.75, 0.79–3.02) — not established* |
+| *Observed moves (logged before, not pre-specified)* | *machinists' rate ratio > 1 (logged in DL-37 before the data)* | *right direction, interval includes 1 (headline 1.48, 0.48–2.92; pre-specified primary 1.75, 0.79–3.02) — not established* |
 
 ---
 
@@ -518,7 +521,7 @@ all four checkable vintages (II-A 3.1). Read it as a direction, not a level.
 - **Training time and cost.** O*NET categories are not feeder-specific transition times, and no public cost data exist.
 - **Pay and selection.** Median wage gaps cannot say why people do or do not move (Roy-type self-selection).
 - **Accumulated analysis choices.** Implementation readings and additions after the freeze make up 48 log entries (DL-1 …
-  DL-48). Each is recorded with its timing relative to the run, and every results table separates [Registered],
+  DL-48). Each is recorded with its timing relative to the run, and every results table separates [Pre-specified],
   [Logged before] and [Post hoc]. Post-hoc items (H1-group, the CPS headline rule, the 3363 scale illustration) are not used
   as confirmatory evidence.
 
@@ -546,7 +549,7 @@ all four checkable vintages (II-A 3.1). Read it as a direction, not a level.
 ## 5. Data, methods and reproduction
 
 **Why public data only.** Every input is a federal public statistic with documented methods. No employer or private data
-are used, so anyone can download the same files and reproduce every number. The registered inputs are frozen by SHA-256,
+are used, so anyone can download the same files and reproduce every number. The pre-specified inputs are frozen by SHA-256,
 the pipeline re-runs from scratch, and the output audit recomputes every reported number by a separate code path. Public
 data do not remove error, so the published standard errors are carried with each estimate.
 
@@ -568,14 +571,14 @@ general maintenance and repair workers, electricians, machinery maintenance work
 **maintenance family** weighted by 3363 employment (π = 48.3 / 29.9 / 10.7 / 6.2 / 4.9%). There are 12 production feeders,
 3 sensitivity occupations and 1 negative control (hand laborers, 53-7062).
 
-*Why these five targets.* The registered rule takes as targets every equipment maintenance, repair and electrical
+*Why these five targets.* The pre-specified rule takes as targets every equipment maintenance, repair and electrical
 occupation with at least 1,000 jobs and an employment relative standard error of at most 10% in OEWS May 2025, NAICS
 336300. Five pass: industrial machinery mechanics (13,210), general maintenance and repair workers (8,170), electricians
 (2,920), machinery maintenance workers (1,690) and millwrights (1,340). These candidates fail: automotive service
 technicians (1,350 jobs, RSE 10.6%), motor vehicle electronic equipment installers (630, RSE 33.8%), electro-mechanical and
 mechatronics technicians (330) and commercial and industrial electrical repairers (230). The last two remain as
-sensitivity targets. One occupation meets the size and precision thresholds but is not a registered target: first-line
-supervisors of mechanics, installers and repairers (49-1011; 2,700 jobs, RSE 1.5%). The registration records no reason,
+sensitivity targets. One occupation meets the size and precision thresholds but is not a pre-specified target: first-line
+supervisors of mechanics, installers and repairers (49-1011; 2,700 jobs, RSE 1.5%). The plan records no reason,
 and none is constructed afterwards. O*NET describes the occupation as directly supervising and coordinating the activities
 of mechanics, installers and repairers. Adding it to the family at its employment weight (9%) leaves the three closest
 core feeders on Skills unchanged (point P 7.4 / 9.6 / 11.7) and team assemblers still first on Knowledge (P 9.3).
@@ -596,8 +599,8 @@ $$D_{f} \;=\; \frac{\sum_{k} w_{k}\,\max\!\left(0,\; z_{\text{family},k} - z_{f,
   alternatives $\exp(H)$ and $k_{80}$.
 
 **Uncertainty and robustness.** Parametric bootstrap with the published O*NET standard errors (B = 1,000), three further
-error models, a 96-specification multiverse per domain, a pre-registered negative control, continuous-distance and
-rating-vintage checks, and the registered FDR (Benjamini–Hochberg, q = 0.05). Every implementation reading of the frozen
+error models, a 96-specification multiverse per domain, a pre-specified negative control, continuous-distance and
+rating-vintage checks, and the pre-specified FDR (Benjamini–Hochberg, q = 0.05). Every implementation reading of the frozen
 plan and every later addition is recorded in `outputs/deviation_log.md` (DL-1 … DL-48) with its timing relative to the run.
 
 **Reproduction.**
@@ -607,13 +610,13 @@ pip install -r requirements.txt
 python run_pipeline.py           # writes results_log.txt, outputs/, figures/
 python -m pytest                 # unit tests and real-data checks
 ```
-`python scripts/freeze.py --verify` checks that `config/prereg.yaml` and every registered raw file match the freeze record.
+`python scripts/freeze.py --verify` checks that `config/prereg.yaml` and every pre-specified raw file match the freeze record.
 `python -m src.output_audit` recomputes every downstream output (E1–E24), including an independent re-implementation of the
 core estimands from the raw files (`scripts/independent_check.py`).
 
 **Repository layout.**
 ```
-config/prereg.yaml            pre-registration (frozen 2026-10-18)
+config/prereg.yaml            analysis plan (author's freeze record 2026-10-18; first published 2026-11-01)
 run_pipeline.py               one-command run → results_log.txt
 src/                          ingest, audit, estimands, bootstrap, multiverse, descriptive layers, practice layer,
                               sensitivity, robustness, close-pool history, observed CPS moves, integrity review, output audit
@@ -646,4 +649,4 @@ tests/                        unit and real-data tests
 - Benjamini, Y., & Hochberg, Y. (1995). *JRSS B*, 57(1), 289–300; Benjamini, Y., & Yekutieli, D. (2001). *The Annals of Statistics*, 29(4), 1165–1188.
 
 ## Author
-**Yechan (Sean) Kim** · [GitHub @yechansota](https://github.com/yechansota) · Series: [*Manufacturing Talent Supply Chain at Risk (2010–2024)*](https://github.com/yechansota/Mfg_Talent_Supply_Chain.2010-2024.) · [II-A](https://github.com/yechansota/Mfg_Talent_Supply_Chain_II.Floor_Succession)
+**Yechan (Sean) Kim** · [GitHub @yechansota](https://github.com/yechansota) · Series: [*Manufacturing Talent Supply Chain at Risk (2010–2024)*](https://github.com/yechansota/Mfg_Talent_Supply_Chain.2010-2024.) · [II-A](https://github.com/yechansota/Manufacturing_Talent_Supply_Chain_II-A)
